@@ -1,0 +1,30 @@
+program exercicio2;
+
+uses
+  System.SysUtils;
+
+var
+  xEntrada:String;
+  xMeuNome:String;
+  xMinhaIdade:Byte;
+  xCasado:Boolean;
+  xCotacaoDolar: Currency;
+
+begin
+  try
+    xMeuNome := 'Armando';
+    xMinhaIdade:= 18;
+    xCasado:= True;
+    xCotacaoDolar:= 5.50;
+
+    WriteLn('Meu nome é: ' + xMeunome);
+    WriteLn('Minha idade é: ' + IntToStr(xMinhaIdade));
+    WriteLn('Sou Casado: ' + BoolToStr(xCasado));
+    WriteLn('Acotação do Dólar é: ' + FloatToStr(xCotacaoDolar));
+
+    ReadLn(xEntrada);
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

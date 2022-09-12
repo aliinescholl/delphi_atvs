@@ -1,0 +1,32 @@
+unit Usecoes;
+
+interface
+
+uses
+  Uanimal;
+
+type
+  Tregistro = record
+
+    id : integer;
+    data: Tdate;
+    hora: Ttime;
+    obse: string;
+  end;
+
+Tcachorro = class (tanimal)
+  procedure meusomeh; override;
+end;
+
+var
+  vgloball:integer;
+implementation
+
+uses vcl.dialogs;
+
+procedure tcachorro.meusomeh;
+begin
+  ShowMessage('Au Au!);
+end;
+
+end.
