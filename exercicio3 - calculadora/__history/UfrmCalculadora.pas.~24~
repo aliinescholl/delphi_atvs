@@ -1,0 +1,74 @@
+unit UfrmCalculadora;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+    TOperadores = (opSomar, opSubtrair, opMultiplicar,
+                  opDividir, opResto,opDivisaoInteira);
+    TForm2 = class(TForm)
+    operador: TComboBox;
+    Label1: TLabel;
+    bt_calcular: TButton;
+    num1: TEdit;
+    num2: TEdit;
+    Label2: TLabel;
+    resultado: TEdit;
+    procedure bt_calcularClick(Sender: TObject);
+  end;
+
+  implementation
+
+uses
+  System.SysUtils;
+
+procedure TForm2.bt_calcularClick(Sender: TObject);
+
+var
+  xNum1: Integer;
+  xNum2:Integer;
+  xResultado:Integer;
+begin
+  xNum1 := StrToIntDef(num1.Text, 0);
+  xNum2 := StrToIntDef(num2.Text, 0);
+
+  xResultado := 0;
+
+  case TOperadores(operador.ItemIndex) of
+    opSomar:
+    begin
+       xResultado := xNum1 + Num2;
+    end;
+
+    opSubtrair:
+    begin
+      xResultado := xNum1 - Num2;
+    end;
+
+    opMultiplicar:
+    begin
+       xResultado := xNum1 * xNum2;
+    end;
+
+    opDividir:
+    begin
+      xResultado := Trunc(xNum1 / xNum2);
+    end;
+
+    opResto:
+    begin
+      xResultado := (xNum1 mod xNum2);
+    end;
+
+    opDivisaoInteira:
+    begin
+      xResultado:= xNum1 div xNum2;
+    end;
+  end;
+  resultado.Text := IntToStr(xResultado);
+end;
+
+end.

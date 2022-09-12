@@ -1,0 +1,16 @@
+﻿[Label1]
+Coordinates=121,10,53,58
+
+[animal]
+Coordinates=10,10,101,124
+
+[]
+Coordinates=198,78,91,36
+
+[btn]
+Coordinates=258,10,59,58
+Visible=True
+
+[caixa]
+Coordinates=184,10,64,58
+

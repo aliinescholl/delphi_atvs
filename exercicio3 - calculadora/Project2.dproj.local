@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/06 20:04:02.000.631,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/09/06 20:04:51.000.280,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio3 - calculadora\UfrmCalculadora.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/09/06 20:04:51.000.280,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio3 - calculadora\UfrmCalculadora.dfm=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2022/09/06 21:04:27.000.262,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio3 - calculadora\Project2.dproj=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2022/09/06 21:08:54.000.419,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio3 - calculadora\UfrmCalculadora.pas</Transaction>
+    <Transaction>2022/09/06 21:11:03.000.521,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio3 - calculadora\UfrmCalculadora.pas=</Transaction>
+    <Transaction>2022/09/06 21:11:15.000.825,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio3 - calculadora\UfrmCalculadora.pas</Transaction>
+    <Transaction>2022/09/06 21:13:09.000.907,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio3 - calculadora\Unit1.pas</Transaction>
+    <Transaction>2022/09/06 21:13:21.000.902,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio3 - calculadora\Unit1.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio3 - calculadora\UfrmCalculadora2.pas</Transaction>
+    <Transaction>2022/09/06 21:13:21.000.902,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio3 - calculadora\Unit1.dfm=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio3 - calculadora\UfrmCalculadora2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
