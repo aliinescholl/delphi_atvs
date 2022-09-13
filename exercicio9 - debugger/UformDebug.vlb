@@ -1,0 +1,16 @@
+﻿[btn_processar]
+Coordinates=147,10,85,51
+Visible=True
+
+[Label1]
+Coordinates=10,10,46,51
+
+[box1]
+Coordinates=10,78,53,51
+
+[box2]
+Coordinates=70,10,53,51
+
+[]
+Coordinates=145,80,82,33
+
