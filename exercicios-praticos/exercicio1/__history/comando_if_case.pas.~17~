@@ -1,0 +1,76 @@
+unit comando_if_case;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+    TNivel = (estagiario, junior, senior, pleno);
+    TForm1 = class(TForm)
+    edt_caixa: TEdit;
+    caixa_texto: TLabel;
+    btn_if: TButton;
+    btn_case: TButton;
+    caixa_radio: TRadioGroup;
+    procedure btn_caseClick(Sender: TObject);
+
+  private
+  procedure QualMeuNiVel;
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+var
+  xnome: String;
+
+function ver_Nome(const xnome:String):String;
+
+  begin
+    if xnome = edt_caixa then
+      showmessage('Sou Eu. Presente')
+    else
+      break;
+  end;
+
+
+procedure TForm1.btn_caseClick(Sender: TObject);
+begin
+  QualMeuNivel
+end;
+
+procedure TForm1.QualMeuNiVel;
+var
+  mensagem : String;
+  begin
+    case TNivel(caixa_radio.itemindex) of
+      estagiario:
+      begin
+        showmessage('Meu nível é estagiário')
+      end;
+      junior:
+      begin
+        showmessage('Meu nível é Júnior')
+      end;
+      senior:
+      begin
+        showmessage('Meu Nível é Sênior')
+      end;
+      pleno:
+      begin
+        showmessage('Meu Nível é Pleno')
+      end;
+    end;
+  end;
+
+
+{$R *.dfm}
+
+end.

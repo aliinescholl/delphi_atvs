@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2022/09/12 20:47:58.000.171,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/12 20:49:49.000.073,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio_procedure\formulario.pas</Transaction>
-    <Transaction>2022/09/12 20:49:49.000.073,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio_procedure\formulario.dfm</Transaction>
-    <Transaction>2022/09/12 20:52:50.000.390,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicio10 - procedures\form_procedure.dproj</Transaction>
-  </Transactions>
-</BorlandProject>
