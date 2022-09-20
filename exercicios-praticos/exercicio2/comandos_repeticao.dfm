@@ -10,6 +10,7 @@ object Form1: TForm1
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  KeyPreview = True
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
@@ -46,6 +47,8 @@ object Form1: TForm1
     Top = 178
     Width = 186
     Height = 21
+    ParentShowHint = False
+    ShowHint = True
     TabOrder = 2
   end
   object caixa_2: TEdit
