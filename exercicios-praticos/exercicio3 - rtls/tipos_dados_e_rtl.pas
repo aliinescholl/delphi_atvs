@@ -44,16 +44,57 @@ procedure TForm1.ExibirData;
 var
   xdata_rec : TDateTime;
 begin
-  xdata_rec := (StrToDate(edt_str.Text)) + 2;
+  xdata_rec := StrToDate(edt_str.Text) + 2;
   resultado.Caption := (DateToStr(xdata_rec));
 end;
 
 procedure TForm1.DataExtensa;
 var
   xdata_rec : TDateTime;
+  myDay, myMonth, myYear: Word;
 begin
    xdata_rec := StrToDate(edt_str.Text);
-   resultado.Caption := 'Hoje é dia ' + FormatDateTime('dddddd', xdata_rec);
+   DecodeDate(xdata_rec, myDay, myMonth, myYear);
+
+   if myMonth = 1 then
+     resultado.Caption := ('Dia ' + IntToStr(myYear) + ' janeiro ' + ' do ano de ' +IntToStr(myDay))
+
+   else if myMonth = 2 then
+     resultado.Caption := ('Dia ' + IntToStr(myYear) + ' fevereiro ' + ' do ano de ' + IntToStr(myDay))
+
+   else if MyMonth = 3 then
+     resultado.Caption := ('Dia ' + IntToStr(myYear) + ' março' + ' do ano de ' + IntToStr(myDay))
+
+   else if MyMonth = 4 then
+        resultado.Caption := ('Dia ' + IntToStr(myYear) + ' abril' + ' do ano de ' + IntToStr(myDay))
+
+   else if MyMonth = 5 then
+        resultado.Caption := ('Dia ' + IntToStr(myYear) + ' maio' + ' do ano de ' + IntToStr(myDay))
+
+   else if MyMonth = 6 then
+        resultado.Caption := ('Dia ' + IntToStr(myYear) + ' junho' + ' do ano de ' + IntToStr(myDay))
+
+   else if MyMonth = 7 then
+        resultado.Caption := ('Dia ' + IntToStr(myYear) + ' julho' + ' do ano de ' + IntToStr(myDay))
+
+   else if MyMonth = 8 then
+        resultado.Caption := ('Dia ' + IntToStr(myYear) + ' agosto' + ' do ano de ' + IntToStr(myDay))
+
+   else if MyMonth = 9 then
+        resultado.Caption := ('Dia ' + IntToStr(myYear) + ' setembro' + ' do ano de ' + IntToStr(myDay))
+
+   else if MyMonth = 10 then
+        resultado.Caption := ('Dia ' + IntToStr(myYear) + ' outubro' + ' do ano de ' + IntToStr(myDay))
+
+   else if MyMonth = 11 then
+        resultado.Caption := ('Dia ' + IntToStr(myYear) + ' novembro' + ' do ano de ' + IntToStr(myDay))
+
+   else if MyMonth = 12 then
+        resultado.Caption := ('Dia ' + IntToStr(myYear) + ' dezembro' + ' do ano de ' + IntToStr(myDay))
+
+   (*xdata_rec := StrToDate(edt_str.Text);
+   resultado.Caption := 'Hoje é ' + FormatDateTime('dddddd', xdata_rec); também funciona*)
+
 end;
 
 

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/15 18:15:49.000.105,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 19:52:06.000.078,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 19:53:29.000.655,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicios-praticos\exercicios_1-3\exercicio1\soma_numeros.pas</Transaction>
+    <Transaction>2022/09/20 19:53:29.000.655,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicios-praticos\exercicios_1-3\exercicio1\soma_numeros.dfm</Transaction>
+    <Transaction>2022/09/20 20:02:38.000.251,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\exercicios-praticos\exercicios_1-3\exercicio1\somar_valores.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
