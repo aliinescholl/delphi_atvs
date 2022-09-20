@@ -2,9 +2,9 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/09/15 18:15:49.000.105,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/20 20:25:03.178,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/20 20:25:45.245,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios_1-3\exercicio3\consumo_automovel.dfm=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/09/20 20:25:45.245,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios_1-3\exercicio3\consumo_automovel.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/20 20:42:56.141,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios_1-3\exercicio3\media_gasta.dproj=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/09/20 20:25:03.000.178,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/20 20:25:45.000.245,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios_1-3\exercicio3\consumo_automovel.pas</Transaction>
+    <Transaction>2022/09/20 20:25:45.000.245,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios_1-3\exercicio3\consumo_automovel.dfm</Transaction>
+    <Transaction>2022/09/20 20:42:56.000.141,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios_1-3\exercicio3\media_gasta.dproj</Transaction>
   </Transactions>
 </BorlandProject>

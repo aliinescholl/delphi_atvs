@@ -16,7 +16,7 @@ object Form1: TForm1
   object label_resultado: TLabel
     Left = 120
     Top = 240
-    Width = 228
+    Width = 4
     Height = 16
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -71,6 +71,7 @@ object Form1: TForm1
     Top = 64
     Width = 121
     Height = 21
+    NumbersOnly = True
     TabOrder = 1
   end
   object edt_val2: TEdit
@@ -78,6 +79,7 @@ object Form1: TForm1
     Top = 128
     Width = 121
     Height = 21
+    NumbersOnly = True
     TabOrder = 2
   end
 end
