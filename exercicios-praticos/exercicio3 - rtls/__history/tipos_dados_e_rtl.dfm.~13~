@@ -44,6 +44,7 @@ object Form1: TForm1
     Top = 62
     Width = 177
     Height = 21
+    NumbersOnly = True
     TabOrder = 0
   end
   object btn_num_int: TButton

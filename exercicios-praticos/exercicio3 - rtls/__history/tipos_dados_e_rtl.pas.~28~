@@ -3,12 +3,12 @@ unit tipos_dados_e_rtl;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  Winapi.Windows, Winapi.Messages, System.Variants,
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
-  TForm1 = class(TForm)
+    TForm1 = class(TForm)
     label1: TLabel;
     edt_str: TEdit;
     btn_num_int: TButton;
@@ -35,18 +35,27 @@ var
 
 implementation
 
+uses
+  System.SysUtils;
+
 {$R *.dfm}
 
 procedure TForm1.ExibirData;
+var
+  xdata_rec : TDateTime;
 begin
-
+  xdata_rec := (StrToDate(edt_str.Text)) + 2;
+  resultado.Caption := (DateToStr(xdata_rec));
 end;
-
 
 procedure TForm1.DataExtensa;
+var
+  xdata_rec : TDateTime;
 begin
-
+   xdata_rec := StrToDate(edt_str.Text);
+   resultado.Caption := FormatDateTime('dddddd', xdata_rec);
 end;
+
 
 procedure TForm1.PontoFlutuante;
 var

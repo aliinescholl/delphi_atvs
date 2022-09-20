@@ -53,7 +53,7 @@ var
   xdata_rec : TDateTime;
 begin
    xdata_rec := StrToDate(edt_str.Text);
-   resultado.Caption := FormatDateTime('dddddd', xdata_rec);
+   resultado.Caption := 'Hoje é dia ' + FormatDateTime('dddddd', xdata_rec);
 end;
 
 
