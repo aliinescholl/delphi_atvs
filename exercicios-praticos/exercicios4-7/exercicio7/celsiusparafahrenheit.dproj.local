@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/21 19:48:05.000.521,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/21 19:55:32.000.993,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios4-7\exercicio7\celsiustofahrenheit.pas</Transaction>
+    <Transaction>2022/09/21 19:55:32.000.993,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios4-7\exercicio7\celsiustofahrenheit.dfm</Transaction>
+    <Transaction>2022/09/21 19:58:24.000.863,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios4-7\exercicio7\celsiusparafahrenheit.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

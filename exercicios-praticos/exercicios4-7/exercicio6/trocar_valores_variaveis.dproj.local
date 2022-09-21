@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/21 19:33:35.000.699,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/21 19:36:01.000.405,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios4-7\exercicio6\trocar_valores.pas</Transaction>
+    <Transaction>2022/09/21 19:36:01.000.405,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios4-7\exercicio6\trocar_valores.dfm</Transaction>
+    <Transaction>2022/09/21 19:43:36.000.398,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios4-7\exercicio6\trocar_valores_variaveis.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

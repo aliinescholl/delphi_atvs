@@ -1,0 +1,78 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 327
+  ClientWidth = 418
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 128
+    Top = 40
+    Width = 148
+    Height = 13
+    Caption = 'Calcule sua m'#233'dia no Semestre'
+  end
+  object label_resultado: TLabel
+    Left = 131
+    Top = 288
+    Width = 145
+    Height = 13
+  end
+  object edt_nome: TEdit
+    Left = 131
+    Top = 72
+    Width = 145
+    Height = 33
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+    TextHint = 'Nome Do Aluno'
+  end
+  object edt_nota1: TEdit
+    Left = 131
+    Top = 111
+    Width = 145
+    Height = 33
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+    TextHint = '1'#170' Nota'
+  end
+  object edt_nota2: TEdit
+    Left = 131
+    Top = 150
+    Width = 145
+    Height = 33
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+    TextHint = '2'#170' Nota'
+  end
+  object edt_nota3: TEdit
+    Left = 131
+    Top = 189
+    Width = 145
+    Height = 33
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+    TextHint = '3'#170' Nota'
+  end
+  object btn_calcular: TButton
+    Left = 131
+    Top = 240
+    Width = 145
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 4
+    OnClick = btn_calcularClick
+  end
+end
