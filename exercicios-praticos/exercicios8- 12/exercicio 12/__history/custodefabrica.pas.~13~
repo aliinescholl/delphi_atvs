@@ -1,0 +1,57 @@
+unit custodefabrica;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    edt_custofabrica: TEdit;
+    btn_calcular: TButton;
+    Label1: TLabel;
+    resultado: TLabel;
+    procedure btn_calcularClick(Sender: TObject);
+  private
+    procedure CalcularPrecoCarro;
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+{ TForm1 }
+
+
+procedure TForm1.CalcularPrecoCarro;
+var
+  xprecoCusto, xvalorCarroNovo, xvalDistribuidor, xvalImpostos: Double;
+
+begin
+  const xdistribuidor = 0.28;
+  const ximpostos     = 1.45;
+
+  xprecoCusto := StrToFloat(edt_custofabrica.Text);
+
+  xvalImpostos      := ximpostos * xprecoCusto;
+  //xvalImpostos    := xvalImpostos + xprecoCusto; funciona se declarar a constante impostos como 0.45
+  xvalDistribuidor  := xdistribuidor * xvalImpostos;
+  xvalorCarroNovo   := xvalImpostos + xvalDistribuidor;
+
+  resultado.Caption := FormatFloat('##,##0.00', xvalorCarroNovo);
+
+end;
+
+procedure TForm1.btn_calcularClick(Sender: TObject);
+begin
+  CalcularPrecoCarro;
+end;
+
+end.
