@@ -10,9 +10,8 @@ type
   TForm1 = class(TForm)
     edt_num: TEdit;
     btn_descobrir: TButton;
-    label1: TLabel;
-    procedure btn_descobrirClick(Sender: TObject);
-
+    //procedure btn_descobrirClick(Sender: TObject);
+    procedure edt_numChange(Sender: TObject);
   private
     procedure EntreOsValores;
     { Private declarations }
@@ -29,6 +28,11 @@ implementation
 
 { TForm1 }
 
+procedure TForm1.edt_numChange(Sender: TObject);
+begin
+  EntreOsvalores
+end;
+
 procedure TForm1.EntreOsValores;
 var
   xnum1 : Integer;
@@ -44,10 +48,5 @@ var
 
   end;
 
-
-procedure TForm1.btn_descobrirClick(Sender: TObject);
-begin
-  EntreOsValores;
-end;
 
 end.

@@ -10,7 +10,6 @@ type
   TForm1 = class(TForm)
     edt_numero: TEdit;
     btn_descobrir: TButton;
-    Label1: TLabel;
     procedure btn_descobrirClick(Sender: TObject);
   private
     procedure MaiorQue10;

@@ -1,4 +1,4 @@
-unit maiorque;
+unit entreosvalores;
 
 interface
 
@@ -8,12 +8,11 @@ uses
 
 type
   TForm1 = class(TForm)
-    edt_numero: TEdit;
+    edt_num: TEdit;
     btn_descobrir: TButton;
-    Label1: TLabel;
     procedure btn_descobrirClick(Sender: TObject);
   private
-    procedure MaiorQue10;
+    procedure EntreOsValores;
     { Private declarations }
   public
     { Public declarations }
@@ -28,22 +27,25 @@ implementation
 
 { TForm1 }
 
-
-procedure TForm1.MaiorQue10;
+procedure TForm1.EntreOsValores;
 var
-  xnum :Double;
-begin
-  xnum := StrToFloat(edt_numero.Text);
+  xnum1 : Integer;
 
-  if xnum>10 then
-    showmessage('É maior que 10')
-  else
-    showmessage('Não é maior que 10');
-end;
+  begin
+    xnum1 := StrToInt(edt_num.text);
+
+    if (xnum1>100) and (xnum1<200) then
+      showmessage('Está entre 100 e 200')
+
+    else
+      showmessage('Não está entre 100 e 200');
+
+  end;
+
 
 procedure TForm1.btn_descobrirClick(Sender: TObject);
 begin
-  MaiorQue10;
+  EntreOsValores;
 end;
 
 end.
