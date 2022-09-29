@@ -1,0 +1,51 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 281
+  ClientWidth = 418
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 104
+    Top = 32
+    Width = 216
+    Height = 18
+    Caption = 'Digite um n'#250'mero em cada caixa'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object edt_num_1: TEdit
+    Left = 152
+    Top = 72
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object edt_num2: TEdit
+    Left = 152
+    Top = 112
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object btn_mensagem: TButton
+    Left = 152
+    Top = 160
+    Width = 121
+    Height = 25
+    Caption = 'Diferentes?'
+    TabOrder = 2
+  end
+end
