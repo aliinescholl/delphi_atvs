@@ -1,0 +1,17 @@
+program atv_menu;
+
+uses
+  Vcl.Forms,
+  Unit1 in 'Unit1.pas' {frmFornecedores},
+  UfrmCliente in 'UfrmCliente.pas' {frmCliente},
+  UfrmFornecedores in 'UfrmFornecedores.pas' {Form2},
+  UfrmProdutos in 'UfrmProdutos.pas' {frmProdutos};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmFornecedores, frmFornecedores);
+  Application.Run;
+end.
