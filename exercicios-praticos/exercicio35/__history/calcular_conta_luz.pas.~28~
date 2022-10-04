@@ -38,26 +38,22 @@ var
   begin
   xKwGasto := StrToFloat(edt_qtd_kw.Text);
 
-  case TTipo(rgroupTipo.ItemIndex) of
-    tpResidencia:
-      begin
-        xResultado := xKwGasto * 0.6;
+    case TTipo(rgroupTipo.ItemIndex) of
+      tpResidencia:
+        begin
+          xResultado := xKwGasto * 0.6;
+        end;
 
-        lblResultado.Caption := 'Você pagará R$' + FormatFloat('###,##0.00', xResultado);
-      end;
+      tpComercio:
+        begin
+          xResultado := xKwGasto * 0.48;
+        end;
 
-    tpComercio:
-      begin
-        xResultado := xKwGasto * 0.48;
-        lblResultado.Caption := 'Você pagará R$' + FormatFloat('###,##0.00', xResultado);
-      end;
+      tpIndustria:
+        begin
+          xResultado := xKwGasto * 1.29;
+        end;
 
-    tpIndustria:
-      begin
-        xResultado := xKwGasto * 1.29;
-
-        lblResultado.Caption := 'Você pagará R$' + FormatFloat('###,##0.00', xResultado);
-     end;
   end;
   lblResultado.Caption := 'Você pagará R$' + FormatFloat('###,##0.00', xResultado)
 end;

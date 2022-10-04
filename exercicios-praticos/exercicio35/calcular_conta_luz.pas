@@ -52,11 +52,11 @@ var
       tpIndustria:
         begin
           xResultado := xKwGasto * 1.29;
-
-       end;
+        end;
 
   end;
-  lblResultado.Caption := 'Você pagará R$' + FormatFloat('###,##0.00', xResultado)
+  lblResultado.Caption := 'Você pagará R$' +
+                          FormatFloat('###,##0.00', xResultado)
 end;
 
 procedure TForm1.btnCalcularClick(Sender: TObject);
