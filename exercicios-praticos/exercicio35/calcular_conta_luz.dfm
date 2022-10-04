@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 296
+  ClientHeight = 325
   ClientWidth = 418
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -10,14 +10,20 @@ object Form1: TForm1
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  KeyPreview = True
   OldCreateOrder = False
+  OnKeyDown = FormKeyDown
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 96
-    Top = 32
-    Width = 241
+    AlignWithMargins = True
+    Left = 3
+    Top = 30
+    Width = 412
     Height = 24
+    Margins.Top = 30
+    Align = alTop
+    Alignment = taCenter
     Caption = 'Quantos KW foram gastos?'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -25,45 +31,78 @@ object Form1: TForm1
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
+    ExplicitLeft = 96
+    ExplicitTop = 32
+    ExplicitWidth = 241
   end
   object lblResultado: TLabel
-    Left = 96
-    Top = 255
-    Width = 33
+    AlignWithMargins = True
+    Left = 3
+    Top = 274
+    Width = 412
     Height = 16
+    Margins.Top = 30
+    Align = alTop
+    Alignment = taCenter
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
+    ExplicitLeft = -2
+    ExplicitTop = 361
   end
   object edt_qtd_kw: TEdit
-    Left = 112
-    Top = 72
-    Width = 177
+    AlignWithMargins = True
+    Left = 80
+    Top = 77
+    Width = 258
     Height = 21
+    Margins.Left = 80
+    Margins.Top = 20
+    Margins.Right = 80
+    Align = alTop
+    Alignment = taCenter
     TabOrder = 0
+    ExplicitLeft = 40
+    ExplicitWidth = 338
   end
   object btnCalcular: TButton
-    Left = 112
+    AlignWithMargins = True
+    Left = 100
     Top = 216
-    Width = 177
+    Width = 218
     Height = 25
+    Margins.Left = 100
+    Margins.Top = 20
+    Margins.Right = 100
+    Align = alTop
     Caption = 'Calcular'
-    TabOrder = 1
+    TabOrder = 2
     OnClick = btnCalcularClick
+    ExplicitLeft = 106
+    ExplicitTop = 246
+    ExplicitWidth = 177
   end
   object rgroupTipo: TRadioGroup
-    Left = 112
-    Top = 99
-    Width = 177
-    Height = 105
+    AlignWithMargins = True
+    Left = 80
+    Top = 121
+    Width = 258
+    Height = 72
+    Margins.Left = 80
+    Margins.Top = 20
+    Margins.Right = 80
+    Align = alTop
     Caption = 'Tipo'
+    Columns = 2
+    ItemIndex = 0
     Items.Strings = (
       'Resid'#234'ncia'
       'Com'#233'rcio'
-      'Ind'#250'stria')
-    TabOrder = 2
+      'Ind'#250'stria'
+      'Fazenda')
+    TabOrder = 1
   end
 end
