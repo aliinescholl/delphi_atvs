@@ -36,16 +36,15 @@ procedure TForm1.calcularValorLuz;
 var
   xKwGasto, xResultado : double;
 const
-  CTAXA_RESIDENCIA = 0.6;
-  CTAXA_GASTO = 0.48;
-  CTAXA_INDUSTRIA = 1.29;
-  CTAXA_FAZENDA = 2.18;
+  CTAXA_RESIDENCIA = 0.8;
+  CTAXA_COMERCIO   = 0.68;
+  CTAXA_INDUSTRIA  = 1.49;
+  CTAXA_FAZENDA    = 3.18;
 
   begin
   xKwGasto := StrToFloatDef(edt_qtd_kw.Text, 0);
   lblResultado.Caption := '';
   if not (xKwGasto > 0) then Exit;
-  
 
     case TTipo(rgroupTipo.ItemIndex) of
       tpResidencia:
@@ -55,7 +54,7 @@ const
 
       tpComercio:
       begin
-        xResultado := xKwGasto * CTAXA_GASTO;
+        xResultado := xKwGasto * CTAXA_COMERCIO;
       end;
 
       tpIndustria:

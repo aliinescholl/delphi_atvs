@@ -31,8 +31,6 @@ object Form1: TForm1
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
-    ExplicitLeft = 96
-    ExplicitTop = 32
     ExplicitWidth = 241
   end
   object lblResultado: TLabel
@@ -50,8 +48,7 @@ object Form1: TForm1
     Font.Name = 'Tahoma'
     Font.Style = []
     ParentFont = False
-    ExplicitLeft = -2
-    ExplicitTop = 361
+    ExplicitWidth = 4
   end
   object edt_qtd_kw: TEdit
     AlignWithMargins = True
@@ -65,8 +62,6 @@ object Form1: TForm1
     Align = alTop
     Alignment = taCenter
     TabOrder = 0
-    ExplicitLeft = 40
-    ExplicitWidth = 338
   end
   object btnCalcular: TButton
     AlignWithMargins = True
@@ -81,9 +76,6 @@ object Form1: TForm1
     Caption = 'Calcular'
     TabOrder = 2
     OnClick = btnCalcularClick
-    ExplicitLeft = 106
-    ExplicitTop = 246
-    ExplicitWidth = 177
   end
   object rgroupTipo: TRadioGroup
     AlignWithMargins = True
