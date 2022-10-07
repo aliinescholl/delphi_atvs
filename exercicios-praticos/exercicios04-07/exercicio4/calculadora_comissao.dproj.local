@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2022/09/21 18:59:09.000.518,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/21 19:13:00.000.941,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios4-7\exercicio4\comissao_calcular.pas</Transaction>
-    <Transaction>2022/09/21 19:13:00.000.941,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios4-7\exercicio4\comissao_calcular.dfm</Transaction>
-    <Transaction>2022/09/21 19:15:44.000.413,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios4-7\exercicio4\calculadora_comissao.dproj</Transaction>
-  </Transactions>
-</BorlandProject>

@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2022/09/23 18:56:40.000.669,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/23 18:59:03.000.072,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios8- 12\exercicio 9\jurospoupanca.dfm=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/09/23 18:59:03.000.072,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios8- 12\exercicio 9\jurospoupanca.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/23 19:06:52.000.820,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios8- 12\exercicio 9\juros_simples.dproj=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-  </Transactions>
-</BorlandProject>

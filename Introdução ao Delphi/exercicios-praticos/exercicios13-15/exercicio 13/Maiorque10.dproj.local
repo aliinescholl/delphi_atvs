@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/23 21:07:05.000.487,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 21:10:38.000.096,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios13-15\exercicio 13\maiorque.pas</Transaction>
+    <Transaction>2022/09/23 21:10:38.000.096,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios13-15\exercicio 13\maiorque.dfm</Transaction>
+    <Transaction>2022/09/23 21:11:44.000.727,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios13-15\exercicio 13\Maiorque10.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

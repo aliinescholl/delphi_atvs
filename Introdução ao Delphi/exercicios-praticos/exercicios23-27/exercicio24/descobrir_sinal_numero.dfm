@@ -1,0 +1,61 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 281
+  ClientWidth = 418
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 96
+    Top = 21
+    Width = 256
+    Height = 21
+    Caption = 'Quantos N'#250'meros deseja receber?'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object edt_tam_for: TEdit
+    Left = 120
+    Top = 48
+    Width = 200
+    Height = 21
+    TabOrder = 0
+  end
+  object btn_receber: TButton
+    Left = 120
+    Top = 96
+    Width = 97
+    Height = 25
+    Caption = 'Receber N'#250'meros'
+    TabOrder = 1
+    OnClick = btn_receberClick
+  end
+  object memo_resultado: TMemo
+    Left = 120
+    Top = 144
+    Width = 200
+    Height = 89
+    TabOrder = 3
+  end
+  object btn_listar: TButton
+    Left = 223
+    Top = 96
+    Width = 97
+    Height = 25
+    Caption = 'Listar'
+    TabOrder = 2
+    OnClick = btn_listarClick
+  end
+end

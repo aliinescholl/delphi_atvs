@@ -1,0 +1,63 @@
+unit numporextenso;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+    TExtenso = (nUm, nDois, nTres, nQuatro, nCinco);
+
+    TForm1 = class(TForm)
+    edt_num: TEdit;
+    btn_mostrar: TButton;
+    lbl_resultado: TLabel;
+    Label1: TLabel;
+    procedure btn_mostrarClick(Sender: TObject);
+  private
+  procedure NumPorExtenso;
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+{ TForm1 }
+
+procedure TForm1.btn_mostrarClick(Sender: TObject);
+begin
+  NumPorExtenso
+end;
+
+procedure TForm1.NumPorExtenso;
+var
+  xNum : Double;
+begin
+  xNum := StrToFloat(edt_num.Text);
+
+  if xNum = 1 then
+    lbl_resultado.Caption := 'Um'
+
+  else if xNum = 2 then
+    lbl_resultado.Caption := 'Dois'
+
+  else if xNum = 3 then
+    lbl_resultado.Caption := 'Três'
+
+  else if xNum = 4 then
+    lbl_resultado.Caption := 'Quatro'
+
+  else if xNum = 5 then
+    lbl_resultado.Caption := 'Cinco'
+  else
+    lbl_resultado.Caption := 'Número inválido'
+end;
+
+end.

@@ -1,0 +1,37 @@
+unit UformDebug;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  Tnome = class(TForm)
+    Label1: TLabel;
+    box1: TMemo;
+    box2: TMemo;
+    btn_processar: TButton;
+    procedure btn_processarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  nome: Tnome;
+
+implementation
+
+{$R *.dfm}
+
+procedure Tnome.btn_processarClick(Sender: TObject);
+var
+  xCalculadora := TCalculadora;
+  xResultado := Integer;
+begin
+
+end;
+
+end.

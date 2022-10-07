@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2022/09/28 18:54:48.000.315,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/28 19:01:30.000.577,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios23-26\exercicio25\diferente_igual.dfm=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/09/28 19:01:30.000.577,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios23-26\exercicio25\diferente_igual.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/28 19:03:05.000.115,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios23-26\exercicio25\diferentes_ou_iguais.dproj=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-  </Transactions>
-</BorlandProject>

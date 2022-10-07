@@ -1,0 +1,40 @@
+object Formulario: TFormulario
+  Left = 0
+  Top = 0
+  Caption = 'Fornecedores'
+  ClientHeight = 476
+  ClientWidth = 622
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsMDIForm
+  Menu = fo
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object fo: TMainMenu
+    Left = 16
+    Top = 8
+    object N1: TMenuItem
+      Caption = 'Cadastrar'
+      object menu1: TMenuItem
+        Caption = 'Fornecedores'
+        OnClick = menu1Click
+      end
+      object Sair1: TMenuItem
+        Caption = 'Produtos'
+        OnClick = Sair1Click
+      end
+      object Clientes1: TMenuItem
+        Caption = 'Clientes'
+        OnClick = Clientes1Click
+      end
+    end
+    object Sair2: TMenuItem
+      Caption = 'Sair'
+    end
+  end
+end

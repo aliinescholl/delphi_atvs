@@ -1,0 +1,45 @@
+unit interface1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus;
+
+type
+  TForm1 = class(TForm)
+    MainMenu1: TMainMenu;
+    Reajuste1: TMenuItem;
+    Reajuste2: TMenuItem;
+    NmerodoMs1: TMenuItem;
+    Ordenar1: TMenuItem;
+    procedure Reajuste2Click(Sender: TObject);
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+uses
+  UfrmReajusteFuncionarios;
+
+
+
+{$R *.dfm}
+
+
+procedure TForm1.Reajuste2Click(Sender: TObject);
+begin
+  if frmReajusteFuncionarios = nil then
+      frmReajusteFuncionario := TfrmReajusteFuncionarios.Create(Self);
+
+    frmReajusteFuncionario.show
+end;
+
+end.

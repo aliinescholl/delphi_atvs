@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2022/09/26 18:44:27.000.870,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/26 18:57:02.000.251,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios16-20\exercicio 17\ler_numeros.pas</Transaction>
-    <Transaction>2022/09/26 18:57:02.000.251,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios16-20\exercicio 17\ler_numeros.dfm</Transaction>
-    <Transaction>2022/09/26 19:31:19.000.395,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios16-20\exercicio 17\EntreNumeros.dproj</Transaction>
-  </Transactions>
-</BorlandProject>

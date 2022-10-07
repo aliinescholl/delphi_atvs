@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2022/09/14 21:34:56.000.649,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/14 21:38:23.000.949,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicio2\comandos_repeticao.dfm=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/09/14 21:38:23.000.949,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicio2\comandos_repeticao.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/14 21:55:36.000.956,C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicio2\comandosrepeticao.dproj=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-  </Transactions>
-</BorlandProject>

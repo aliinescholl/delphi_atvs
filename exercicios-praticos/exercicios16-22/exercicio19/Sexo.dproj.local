@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>2022/09/26 20:15:46.000.156,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/09/26 20:18:09.000.422,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios16-20\exercicio19\masculinoOufeminino.pas</Transaction>
-    <Transaction>2022/09/26 20:18:09.000.422,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios16-20\exercicio19\masculinoOufeminino.dfm</Transaction>
-    <Transaction>2022/09/26 21:19:59.000.693,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios16-20\exercicio19\Sexo.dproj</Transaction>
-  </Transactions>
-</BorlandProject>

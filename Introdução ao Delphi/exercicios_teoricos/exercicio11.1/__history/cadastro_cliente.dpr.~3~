@@ -1,0 +1,68 @@
+program cadastro_cliente;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+type
+  TRegCliente = record
+    Codigo : Integer;
+    Nome :  String;
+    Idade : Byte;
+  end;
+  TListaCliente = array of TregCliente;
+var
+  resp : Integer;
+  xContinuar : Integer;
+  xCliente : TregCliente;
+  XListaCliente : TListaCliente;
+
+procedure AddCliente(const ARegCliente : TregCliente);
+  begin
+    SetLength(xListaCliente, Length(xListaCliente) + 1 );
+    XListaCliente[Length(xListaCliente) - 1] := ARegCliente;
+  end;
+procedure Listar_Clientes;
+var
+  I : Integer;
+  XregCliente : TRegCliente;
+begin
+  WriteLn('Listando');
+  for i := 0 to length(xListaCliente)-1 do
+  begin
+    XRegCLiente := XListaCliente[i];
+
+    WriteLn('Código: ' + xRegCliente.Codigo.ToString);
+    WriteLn('Nome: ' + xRegCLiente.Nome);
+    WriteLn('Idade: ' + xRegCliente.Idade.ToString);
+  end;
+
+end;
+  begin
+  try
+    repeat
+      writeLn('Código do Cliente: ');
+      ReadLn(xCliente.Codigo);
+
+      writeLn('Nome Do Cliente: ');
+      ReadLn(xCliente.Nome);
+
+      WriteLn('Idade do Cliente: ');
+      ReadLn(xCliente.Idade);
+
+      AddCliente(xCliente);
+
+      WriteLn('Deseja Cadastrar mais clientes? 1-s/2-n');
+      ReadLn(resp)
+    until resp=2;
+
+    Listar_Clientes;
+    ReadLn;
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

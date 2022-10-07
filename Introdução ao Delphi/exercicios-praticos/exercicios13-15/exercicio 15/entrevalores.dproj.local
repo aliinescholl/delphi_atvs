@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/23 21:19:38.000.401,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/09/23 21:23:34.000.588,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios13-15\exercicio 15\entreosvalores.pas</Transaction>
+    <Transaction>2022/09/23 21:23:34.000.588,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios13-15\exercicio 15\entreosvalores.dfm</Transaction>
+    <Transaction>2022/09/23 21:34:57.000.794,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\delphi_atvs\exercicios-praticos\exercicios13-15\exercicio 15\entrevalores.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
