@@ -1,0 +1,70 @@
+unit UTriangulo;
+
+interface
+
+type
+  TTriangulo = class
+  private
+    Fa: Double;
+    Fb: Double;
+    Fc: Double;
+    Dd: Double;
+    function GetA: Double;
+    procedure SetA(const Value: Double);
+    function GetB: Double;
+    procedure setB(const Value: Double);
+    procedure setC(const Value: Double);
+    function GetC: Double;
+    function GetD: Double;
+  public
+    function Area: Double;
+
+    property A: Double read GetA write SetA;
+    property B: Double read GetB write setB;
+    property C: Double read GetC write setC;
+    property D: Double read GetD;
+  end;
+
+implementation
+
+{ TTtriangulo }
+
+function TTriangulo.Area: Double;
+var
+  xP: Double;
+begin
+  xP := (Fa + Fb + Fc) / 2;
+  Result := Sqrt(xP * (xP - Fa) * (xP - Fb) * (xP - Fc));
+end;
+
+function TTriangulo.GetA: Double;
+begin
+  Result := Fa;
+end;
+
+procedure TTriangulo.SetA(const Value: Double);
+begin
+  Fa := Value;
+end;
+
+procedure TTriangulo.setB(const Value: Double);
+begin
+  Fb := Value;
+end;
+
+function TTriangulo.GetB: Double;
+begin
+  Result := Fb;
+end;
+
+procedure TTriangulo.setC(const Value: Double);
+begin
+  Fc := Value;
+end;
+
+function TTriangulo.GetC: Double;
+begin
+  Result := Fc;
+end;
+
+end.

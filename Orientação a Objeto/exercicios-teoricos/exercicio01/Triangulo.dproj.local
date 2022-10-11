@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/04 21:23:32.000.661,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 19:41:17.000.084,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 19:44:01.000.493,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 19:53:01.000.796,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios\exercicio01\areaTriangulo.pas</Transaction>
+    <Transaction>2022/10/05 19:53:01.000.796,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios\exercicio01\areaTriangulo.dfm</Transaction>
+    <Transaction>2022/10/05 21:21:42.000.767,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 21:21:53.000.608,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios\exercicio01\UTriangulo.pas</Transaction>
+    <Transaction>2022/10/05 21:36:05.000.809,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios\exercicio01\Triangulo.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

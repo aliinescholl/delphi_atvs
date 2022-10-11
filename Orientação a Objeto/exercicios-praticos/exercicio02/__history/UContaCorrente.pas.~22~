@@ -1,0 +1,90 @@
+unit UContaCorrente;
+
+interface
+
+type
+  TConta = class
+  private
+    FNumConta, FNomeCliente: String;
+    FSaldo: Double;
+    showmessage: TObject;
+    function GetNomeCliente: String;
+    function GetNumConta: String;
+    function GetSaldo: Double;
+    procedure SetNomeCliente(const Value: String);
+    procedure SetNumConta(const Value: String);
+    procedure SetSaldo(const Value: Double);
+
+  public
+    function AlterarNome(const aNome:String) : String;
+    function Depósito : Double;
+    function Saque : Double;
+
+    property numCOnta: String read GetNumConta write SetNumConta;
+    property Cliente: String read GetNomeCliente write SetNomeCliente;
+    property Saldo: Double read GetSaldo write SetSaldo;
+  end;
+
+implementation
+
+{ TConta }
+
+function TConta.AlterarNome(const aNome:String) : String;
+begin
+  Cliente := aNome ;
+  result  := Cliente;
+end;
+
+function TConta.Depósito: Double;
+var
+  ValorDeposito : Double;
+begin
+  if ValorDeposito>0 then
+  begin
+    saldo  := saldo + ValorDeposito;
+    result := saldo
+  end
+  else
+    showmessage('Digite um valor válido');
+end;
+
+function TConta.Saque: Double;
+var
+  ValorSacado : Double;
+begin
+  saldo  := saldo - ValorSacado;
+  result := saldo;
+end;
+
+
+function TConta.GetNomeCliente: String;
+begin
+  result := FNomeCliente;
+end;
+
+function TConta.GetNumConta: String;
+begin
+  result := FNumConta;
+end;
+
+function TConta.GetSaldo: Double;
+begin
+  result := FSaldo;
+end;
+
+procedure TConta.SetNomeCliente(const Value: String);
+begin
+  FNomeCliente := value;
+end;
+
+procedure TConta.SetNumConta(const Value: String);
+begin
+  FNumConta := Value;
+end;
+
+procedure TConta.SetSaldo(const Value: Double);
+begin
+  FSaldo := Value;
+end;
+
+end.

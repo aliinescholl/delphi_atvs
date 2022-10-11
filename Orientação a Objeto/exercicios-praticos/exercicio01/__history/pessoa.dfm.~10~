@@ -1,0 +1,73 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 448
+  ClientWidth = 294
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 88
+    Top = 13
+    Width = 27
+    Height = 13
+    Caption = 'Nome'
+  end
+  object Label2: TLabel
+    Left = 88
+    Top = 56
+    Width = 96
+    Height = 13
+    Caption = 'Data de Nascimento'
+  end
+  object Label3: TLabel
+    Left = 88
+    Top = 93
+    Width = 29
+    Height = 13
+    Caption = 'Altura'
+  end
+  object edtNome: TEdit
+    Left = 88
+    Top = 32
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object edtNascimento: TEdit
+    Left = 88
+    Top = 72
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object edtAltura: TEdit
+    Left = 88
+    Top = 112
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object btnCadastrar: TButton
+    Left = 87
+    Top = 152
+    Width = 122
+    Height = 25
+    Caption = 'Cadastrar'
+    TabOrder = 3
+  end
+  object memoResultado: TMemo
+    Left = 56
+    Top = 208
+    Width = 185
+    Height = 209
+    TabOrder = 4
+  end
+end

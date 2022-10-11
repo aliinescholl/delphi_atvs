@@ -1,0 +1,60 @@
+unit pessoa;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls ;
+
+type
+  TForm1 = class(TForm)
+    edtNome: TEdit;
+    edtNascimento: TEdit;
+    edtAltura: TEdit;
+    btnCadastrar: TButton;
+    memoResultado: TMemo;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    procedure btnCadastrarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+uses
+  UPessoa, System.SysUtils;
+
+{$R *.dfm}
+{ TForm1 }
+
+procedure TForm1.btnCadastrarClick(Sender: TObject);
+var
+  xPessoa: TPessoa;
+  xAlturaSemPonto: String;
+begin
+  xPessoa := TPessoa.Create;
+  try
+    xPessoa.Nome       := edtNome.text;
+    //xPessoa.Altura     := StrToFloat(edtAltura.text);
+    xPessoa.Nascimento := StrToDate(edtNascimento.text);
+
+    xAlturaSemPonto := StringReplace(edtAltura.text, '.', ',',[rfReplaceAll]);
+    xPessoa.Altura := StrToFloat(xAlturaSemPonto);
+    xPessoa.Altura := FormatFloat('###.##0,00',xPessoa.Altura);
+    memoResultado.Lines.Add(xPessoa.ImprimirDados);
+
+  finally
+    FreeAndNil(xPessoa);
+  end;
+
+end;
+
+end.
