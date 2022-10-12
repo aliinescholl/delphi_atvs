@@ -1,0 +1,106 @@
+unit ContaCorrente;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, UContaCorrente;
+
+type
+  TFrmContaCorrente = class(TForm)
+    edtNomeCorrentista: TEdit;
+    edtNumConta: TEdit;
+    edtSaldo: TEdit;
+    btnCadastrar: TButton;
+    btnDepósito: TButton;
+    btnAlterarNome: TButton;
+    btnSaque: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    labelResultado: TLabel;
+    btnListar: TButton;
+    memoListar: TMemo;
+    procedure btnDepósitoClick(Sender: TObject);
+    procedure btnCadastrarClick(Sender: TObject);
+    procedure btnSaqueClick(Sender: TObject);
+    procedure btnAlterarNomeClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    FContaCliente : TConta;
+    procedure Cadastrar;
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmContaCorrente: TFrmContaCorrente;
+
+implementation
+
+{$R *.dfm}
+
+{ TFrmContaCorrente }
+
+procedure TFrmContaCorrente.btnAlterarNomeClick(Sender: TObject);
+var
+  xnome : String;
+begin
+  xnome := inputbox('Inserir', 'Digite seu novo nome: ', '');
+  FContaCliente.AlterarNome(xnome);
+  showmessage(FContaCliente.Cliente);
+end;
+
+procedure TFrmContaCorrente.btnCadastrarClick(Sender: TObject);
+begin
+  Cadastrar;
+end;
+
+
+procedure TFrmContaCorrente.btnDepósitoClick(Sender: TObject);
+var
+  xDeposito : Double;
+begin
+   xdeposito := StrTofloat(inputbox('Inserir', 'Digite o Valor do depósito', ''));
+   FContaCliente.Depósito(xDeposito);
+   showmessage('R$' + FormatFloat('###.#00,00', FContaCliente.Saldo));
+  // FContaCliente.Depósito := StrTofloat(inputbox('Inserir', 'Digite o Valor do depósito', ''));
+end;
+
+
+procedure TFrmContaCorrente.btnSaqueClick(Sender: TObject);
+var
+  xSaque : Double;
+begin
+  xSaque := STrToFloat(inputbox('Inserir', 'Quanto deseja sacar?', ''));
+  FContaCliente.Saque(xSaque);
+  showmessage('R$' + FormatFloat('###.#00,00', FContaCliente.Saldo));
+end;
+
+
+procedure TFrmContaCorrente.Cadastrar;
+var
+  x : double;
+begin
+   FContaCliente := TConta.Create('123', 'Aline', 0);
+   try
+     FContaCliente.Cliente  := edtNomeCorrentista.text;
+     FContaCliente.numConta := edtNumConta.text;
+     FContaCliente.Saldo    := StrToFloat(edtSaldo.text);
+     x := FContaCliente.Saldo;
+     showmessage(FormatFloat('R$' + '###.#00,00', FContaCliente.Saldo));
+   except
+    ShowMessage('Erro ao cadastrar')
+     //FreeAndNil(xContaCorrente);
+   end;
+end;
+
+
+procedure TFrmContaCorrente.FormClose(Sender: TObject;
+  var Action: TCloseAction);
+begin
+  FreeAndNil(FContaCliente);
+end;
+
+end.

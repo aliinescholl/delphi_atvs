@@ -17,10 +17,15 @@ type
     btnSaque: TButton;
     Label1: TLabel;
     Label2: TLabel;
+    memoListar: TMemo;
     Label3: TLabel;
-    labelResultado: TLabel;
+    btnListar: TButton;
     procedure btnDepósitoClick(Sender: TObject);
     procedure btnCadastrarClick(Sender: TObject);
+    procedure btnSaqueClick(Sender: TObject);
+    procedure btnAlterarNomeClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure btnListarClick(Sender: TObject);
   private
     FContaCliente : TConta;
     procedure Cadastrar;
@@ -38,6 +43,14 @@ implementation
 
 { TFrmContaCorrente }
 
+procedure TFrmContaCorrente.btnAlterarNomeClick(Sender: TObject);
+var
+  xnome : String;
+begin
+  xnome := inputbox('Inserir', 'Digite seu novo nome: ', '');
+  FContaCliente.AlterarNome(xnome);
+end;
+
 procedure TFrmContaCorrente.btnCadastrarClick(Sender: TObject);
 begin
   Cadastrar;
@@ -45,24 +58,41 @@ end;
 
 procedure TFrmContaCorrente.btnDepósitoClick(Sender: TObject);
 var
-  xDeposito:Double;
+  xDeposito : Double;
 begin
-   FContaCliente          := TConta.Create('123', 'Aline');
-  // FContaCliente.Depósito := StrTofloat(inputbox('Inserir', 'Digite o Valor do depósito', ''));
+   xdeposito := StrTofloat(inputbox('Inserir', 'Digite o Valor do depósito', ''));
+   FContaCliente.Depósito(xDeposito);
+end;
 
+procedure TFrmContaCorrente.btnListarClick(Sender: TObject);
+begin
+  memoListar.Lines.Add(FContaCliente.Listar);
+end;
+
+procedure TFrmContaCorrente.btnSaqueClick(Sender: TObject);
+var
+  xSaque : Double;
+begin
+  xSaque := STrToFloat(inputbox('Inserir', 'Quanto deseja sacar?', ''));
+  FContaCliente.Saque(xSaque);
 end;
 
 procedure TFrmContaCorrente.Cadastrar;
 begin
-   FContaCliente := TConta.Create('123', 'Aline');
+   FContaCliente := TConta.Create('123', 'Aline', 0);
    try
      FContaCliente.Cliente  := edtNomeCorrentista.text;
      FContaCliente.numConta := edtNumConta.text;
      FContaCliente.Saldo    := StrToFloat(edtSaldo.text);
    except
-    ShowMessage('Erro ao cadastrar')
-     //FreeAndNil(xContaCorrente);
+
    end;
+end;
+
+procedure TFrmContaCorrente.FormClose(Sender: TObject;
+  var Action: TCloseAction);
+begin
+  FreeAndNil(FContaCliente);
 end;
 
 end.

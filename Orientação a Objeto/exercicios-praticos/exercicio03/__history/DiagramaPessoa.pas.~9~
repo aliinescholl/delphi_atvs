@@ -1,0 +1,68 @@
+unit DiagramaPessoa;
+
+interface
+
+type
+  TPessoa = class
+  private
+    FNome: String;
+    FEndereco: String;
+    function GetNome: String;
+    procedure SetNome(const Value: String);
+  public
+    procedure Gravar(aPessoa: TPessoa);
+    property Nome : String read GetNome write SetNome;
+    property Endereco : String read GetNome write SetNome;
+  end;
+
+  TPessoaFisica = class(TPessoa)
+  private
+    FCPF: String;
+    FIdade: Byte;
+  public
+    function CPF_Valido : Boolean;
+    property Cpf : String read GetCpf write SetCpf;
+    property Idade : Integer read GetIdade write SetIdade;
+  end;
+
+  TPessoaJuridica = class(TPessoa)
+  private
+    FCNPJ, FIE : String;
+  public
+    function CNPJ_Valido : Boolean;
+  end;
+
+implementation
+
+{ TPessoa }
+
+function TPessoa.GetNome: String;
+begin
+
+end;
+
+procedure TPessoa.Gravar(aPessoa: TPessoa);
+begin
+
+end;
+
+procedure TPessoa.SetNome(const Value: String);
+begin
+
+end;
+
+{ TPessoaFisica }
+
+function TPessoaFisica.CPF_Valido: Boolean;
+begin
+
+end;
+
+{ TPessoaJuridica }
+
+function TPessoaJuridica.CNPJ_Valido: Boolean;
+begin
+
+end;
+
+end.

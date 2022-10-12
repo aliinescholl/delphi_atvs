@@ -99,7 +99,7 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="ContaCorrente.pas">
-            <Form>Form1</Form>
+            <Form>FrmContaCorrente</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="UContaCorrente.pas"/>

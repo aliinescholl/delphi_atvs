@@ -2,82 +2,71 @@ unit UContaCorrente;
 
 interface
 
-uses
-  Winapi.Windows;
-
 type
   TConta = class
   private
     FNumConta, FNomeCliente: String;
-    FSaldo: Double;
-    showmessage: TObject;
+    FSaldo: Currency;
+    
     function GetNomeCliente: String;
-    function GetNumConta: String;
-    function GetSaldo: Double;
+    function GetNumConta   : String;
+    function GetSaldo      : Currency;
     procedure SetNomeCliente(const Value: String);
     procedure SetNumConta(const Value: String);
-    procedure SetSaldo(const Value: Double);
+    procedure SetSaldo(const Value: Currency);
 
   public
-    function AlterarNome(const aNome:String) : String;
-    function Depósito : Double;
-    function Saque : Double;
+    procedure AlterarNome(const aNome: String);
+    procedure Depósito(const pDeposito: Double);
+    procedure Saque(const pSaque: Double);
+    function Listar : String;
 
-    property numCOnta: String read GetNumConta write SetNumConta;
-    property Cliente: String read GetNomeCliente write SetNomeCliente;
-    property Saldo: Double read GetSaldo write SetSaldo;
+    property numCOnta : String read GetNumConta write SetNumConta;
+    property Cliente  : String read GetNomeCliente write SetNomeCliente;
+    property Saldo    : Currency read GetSaldo write SetSaldo;
 
-    constructor Create(const aNumConta: String; const aNomeCliente: String; const aSaldo: Currency = 0);
+    constructor Create(const aNumConta: String; const aNomeCliente: String;
+      const aSaldo: Currency = 0);
   end;
 
 implementation
 
+uses
+  System.SysUtils;
+
 { TConta }
 
-function TConta.AlterarNome(const aNome:String) : String;
+procedure TConta.AlterarNome(const aNome: String);
 begin
-  Cliente := aNome ;
-  result  := Cliente;
+  if anome = Cliente then
+    raise Exception.Create('Os nomes são iguais!');
+  
+  Cliente := aNome; 
 end;
 
-
-constructor TConta.Create(const aNumConta: String; const aNomeCliente: String; const aSaldo: Currency = 0);
+constructor TConta.Create(const aNumConta: String; const aNomeCliente: String;
+  const aSaldo: Currency = 0);
 begin
-   FnumConta    := aNumCOnta;
-   FNomeCliente := aNomeCliente;
-   FSaldo       := aSaldo;
+  FNumConta    := aNumConta;
+  FNomeCliente := aNomeCliente;
+  FSaldo       := aSaldo;
 end;
 
-
-function TConta.Depósito: Double;
-var
-  ValorDeposito : Double;
-  xResposta     : String;
+procedure TConta.Depósito(const pDeposito: Double);
 begin
-  if ValorDeposito>0 then
-  begin
-    saldo  := saldo + ValorDeposito;
-    result := saldo
-  end
-  else
-     xResposta := 'Valor inválido';
+  if pDeposito <= 0 then
+    raise Exception.Create('Valor inválido');
+
+  Saldo := Saldo + pDeposito;
 end;
 
-
-function TConta.Saque: Double;
-var
-  ValorSacado : Double;
-  xResposta   : String;
+procedure TConta.Saque(const pSaque: Double);
 begin
-if (saldo<0) or (saque>saldo) then
-  begin
-    saldo  := saldo - ValorSacado;
-    result := saldo;
-  end
-else
-    xResposta := 'Saldo insuficiente';
-  end;
+  if (Saldo < 0) or (pSaque > Saldo) then
+    raise Exception.Create('Saldo Insuficiente');
 
+  Saldo  := Saldo - pSaque;
+end;
 
 function TConta.GetNomeCliente: String;
 begin
@@ -89,14 +78,20 @@ begin
   result := FNumConta;
 end;
 
-function TConta.GetSaldo: Double;
+function TConta.GetSaldo: Currency;
 begin
   result := FSaldo;
 end;
 
+function TConta.Listar: String;
+begin
+  result := 'Nome: '+ cliente + sLineBreak + 'Número da conta: ' + numconta  + sLineBreak +
+            'Saldo atual: R$' + CurrToStr(saldo) + sLineBreak + '----------------------';
+end;
+
 procedure TConta.SetNomeCliente(const Value: String);
 begin
-  FNomeCliente := value;
+  FNomeCliente := Value;
 end;
 
 procedure TConta.SetNumConta(const Value: String);
@@ -104,7 +99,7 @@ begin
   FNumConta := Value;
 end;
 
-procedure TConta.SetSaldo(const Value: Double);
+procedure TConta.SetSaldo(const Value: Currency);
 begin
   FSaldo := Value;
 end;

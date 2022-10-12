@@ -11,6 +11,7 @@
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnClose = FormClose
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -52,23 +53,11 @@
     Font.Style = []
     ParentFont = False
   end
-  object labelResultado: TLabel
-    Left = 56
-    Top = 288
-    Width = 17
-    Height = 49
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Tahoma'
-    Font.Style = []
-    ParentFont = False
-  end
   object edtNomeCorrentista: TEdit
     Left = 56
     Top = 52
     Width = 137
-    Height = 33
+    Height = 27
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -81,7 +70,7 @@
     Left = 56
     Top = 116
     Width = 137
-    Height = 33
+    Height = 27
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -94,7 +83,7 @@
     Left = 56
     Top = 180
     Width = 137
-    Height = 33
+    Height = 27
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -104,7 +93,7 @@
     TabOrder = 2
   end
   object btnCadastrar: TButton
-    Left = 128
+    Left = 56
     Top = 235
     Width = 137
     Height = 32
@@ -146,10 +135,11 @@
     Font.Style = []
     ParentFont = False
     TabOrder = 5
+    OnClick = btnAlterarNomeClick
   end
   object btnSaque: TButton
     Left = 240
-    Top = 180
+    Top = 177
     Width = 121
     Height = 33
     Caption = 'Sacar'
@@ -160,5 +150,28 @@
     Font.Style = []
     ParentFont = False
     TabOrder = 6
+    OnClick = btnSaqueClick
+  end
+  object memoListar: TMemo
+    Left = 56
+    Top = 288
+    Width = 305
+    Height = 161
+    TabOrder = 7
+  end
+  object btnListar: TButton
+    Left = 240
+    Top = 235
+    Width = 121
+    Height = 32
+    Caption = 'Listar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 8
+    OnClick = btnListarClick
   end
 end

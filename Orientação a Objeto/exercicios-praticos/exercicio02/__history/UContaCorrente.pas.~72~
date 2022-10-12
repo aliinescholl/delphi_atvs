@@ -1,0 +1,107 @@
+unit UContaCorrente;
+
+interface
+
+type
+  TConta = class
+  private
+    FNumConta, FNomeCliente: String;
+    FSaldo: Currency;
+    
+    function GetNomeCliente: String;
+    function GetNumConta   : String;
+    function GetSaldo      : Currency;
+    procedure SetNomeCliente(const Value: String);
+    procedure SetNumConta(const Value: String);
+    procedure SetSaldo(const Value: Currency);
+
+  public
+    procedure AlterarNome(const aNome: String);
+    procedure Depósito(const pDeposito: Double);
+    procedure Saque(const pSaque: Double);
+    function Listar : String;
+
+    property numCOnta : String read GetNumConta write SetNumConta;
+    property Cliente  : String read GetNomeCliente write SetNomeCliente;
+    property Saldo    : Currency read GetSaldo write SetSaldo;
+
+    constructor Create(const aNumConta: String; const aNomeCliente: String;
+      const aSaldo: Currency = 0);
+  end;
+
+implementation
+
+uses
+  System.SysUtils;
+
+{ TConta }
+
+procedure TConta.AlterarNome(const aNome: String);
+begin
+  if anome = Cliente then
+    raise Exception.Create('Os nomes são iguais!');
+  
+  Cliente := aNome; 
+end;
+
+constructor TConta.Create(const aNumConta: String; const aNomeCliente: String;
+  const aSaldo: Currency = 0);
+begin
+  FNumConta    := aNumConta;
+  FNomeCliente := aNomeCliente;
+  FSaldo       := aSaldo;
+end;
+
+procedure TConta.Depósito(const pDeposito: Double);
+begin
+  if pDeposito <= 0 then
+    raise Exception.Create('Valor inválido');
+
+  Saldo := Saldo + pDeposito;
+end;
+
+procedure TConta.Saque(const pSaque: Double);
+begin
+  if (Saldo < 0) or (pSaque > Saldo) then
+    raise Exception.Create('Saldo Insuficiente');
+
+  Saldo  := Saldo - pSaque;
+end;
+
+function TConta.GetNomeCliente: String;
+begin
+  result := FNomeCliente;
+end;
+
+function TConta.GetNumConta: String;
+begin
+  result := FNumConta;
+end;
+
+function TConta.GetSaldo: Currency;
+begin
+  result := FSaldo;
+end;
+
+function TConta.Listar: String;
+begin
+  result := 'Nome: ' + cliente + 'Número da conta:' + numconta  +
+            'Saldo atual: ' + CurrToStr(saldo) + '----------------------';
+end;
+
+procedure TConta.SetNomeCliente(const Value: String);
+begin
+  FNomeCliente := Value;
+end;
+
+procedure TConta.SetNumConta(const Value: String);
+begin
+  FNumConta := Value;
+end;
+
+procedure TConta.SetSaldo(const Value: Currency);
+begin
+  FSaldo := Value;
+end;
+
+end.
