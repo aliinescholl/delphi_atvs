@@ -1,0 +1,55 @@
+unit UElevador;
+
+interface
+
+type
+TELevador =  class
+  private
+  Ftamanho : Double;
+  Fpeso_maximo : Double;
+    function GetTamanho: Double;
+    procedure SetTamanho(const Value: Double);
+  public
+  function Subir(const aescolher : Integer) : Integer;
+  function Descer(const aescolher : Integer) : Integer;
+  function Escolher : Integer;
+  procedure Andar;
+
+  property Tamanho : Double read GetTamanho write SetTamanho;
+  property Peso : Double read GetTamanho write SetTamanho;
+end;
+implementation
+
+{ TELevador }
+
+procedure TELevador.Andar;
+begin
+
+end;
+
+function TELevador.Descer(const aescolher: Integer): Integer;
+begin
+
+end;
+
+function TELevador.Escolher: Integer;
+begin
+
+end;
+
+function TELevador.GetTamanho: Double;
+begin
+  result := FTamanho;
+end;
+
+procedure TELevador.SetTamanho(const Value: Double);
+begin
+  FTamanho := Value;
+end;
+
+function TELevador.Subir(const aescolher: Integer): Integer;
+begin
+
+end;
+
+end.
