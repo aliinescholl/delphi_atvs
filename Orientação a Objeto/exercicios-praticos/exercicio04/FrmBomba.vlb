@@ -1,19 +1,32 @@
 ﻿[]
-Coordinates=79,10,59,58
-
-[memoResultado]
-Coordinates=79,78,64,58
+Coordinates=224,174,91,36
 Visible=True
 
 [btnQtdnaBomba]
-Coordinates=286,10,59,58
+Coordinates=286,10,108,58
 
 [btnAbastecerPorLitro]
-Coordinates=10,78,59,58
+Coordinates=10,78,136,58
 
 [btnAbastecerporvalor]
-Coordinates=148,10,59,58
+Coordinates=148,10,137,58
 
-[btnAlterarCombustivel]
-Coordinates=217,10,59,58
+[Shape2]
+Coordinates=76,1,59,36
+
+[tipoCombustivel]
+Coordinates=323,164,106,58
+
+[labelListar]
+Coordinates=323,87,74,58
+
+[Image1]
+Coordinates=0,0,57,58
+Visible=True
+
+[Shape3]
+Coordinates=184,87,59,36
+
+[Shape1]
+Coordinates=164,174,59,36
 
