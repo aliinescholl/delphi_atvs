@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="t0i781z5g0ire0i2f_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::hrbu40uq7qilt3ime_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="129,1,113,151" />
+      <reference referencedUin="delphi:e_class:src:time:agregacao.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:time:agregacao.TForm1" />
+    </reference>
+    <reference referencedUin="design:view:::z90xvbyzhqi9en3wi_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="129,171,100,134" />
+      <reference referencedUin="delphi:e_class:src:time:time.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::potax2ozwljoci4yn_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="280,1,109,151" />
+      <reference referencedUin="delphi:e_class:src:time:UJogador.TJogador" />
+      <reference referencedUin="delphi:e_class:src:time:UJogador.@unitclass" />
+    </reference>
+  </view>
+</nodeSet>

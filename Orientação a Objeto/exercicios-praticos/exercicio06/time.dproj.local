@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/04 21:23:32.000.661,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 19:41:17.000.084,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 19:28:43.740,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 19:29:46.385,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\agregacao.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 19:29:46.385,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\agregacao.dfm=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/10/19 19:29:53.136,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\time.dproj=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/10/19 19:29:54.453,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\ModelSupport_time\default.txaPackage</Transaction>
+    <Transaction>2022/10/19 19:30:01.422,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 19:41:17.316,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\UTime.pas=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 19:45:59.608,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 19:47:03.943,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\UJogador.pas=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 20:05:46.876,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\ModelSupport_time\default.txvpck</Transaction>
+    <Transaction>2022/10/19 20:05:49.946,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\ModelSupport_time\agregacao\default.txvpck</Transaction>
+    <Transaction>2022/10/19 20:05:50.021,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\ModelSupport_time\time\default.txvpck</Transaction>
+    <Transaction>2022/10/19 20:05:50.577,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\ModelSupport_time\agregacao\default.txaPackage</Transaction>
+    <Transaction>2022/10/19 20:05:56.033,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\ModelSupport_time\UTime\default.txvpck</Transaction>
+    <Transaction>2022/10/19 20:05:56.081,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\ModelSupport_time\UJogador\default.txvpck</Transaction>
+    <Transaction>2022/10/19 20:06:16.648,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\ModelSupport_time\UJogador\default.txaPackage</Transaction>
+    <Transaction>2022/10/19 20:06:21.669,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\ModelSupport_time\UTime\default.txaPackage</Transaction>
+    <Transaction>2022/10/19 20:06:32.401,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\UTime.pas=</Transaction>
+    <Transaction>2022/10/19 20:06:32.572,c:\users\alinescholl\documents\delphi_atvs\orientação a objeto\exercicios-praticos\exercicio06\modelsupport_time\utime\default.txvpck=</Transaction>
+    <Transaction>2022/10/19 20:06:32.607,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\ModelSupport_time\UTime\default.txaPackage=</Transaction>
+    <Transaction>2022/10/19 20:09:06.066,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\ModelSupport_time\time\default.txaPackage</Transaction>
+    <Transaction>2022/10/19 20:12:11.580,=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\Unit1.pas</Transaction>
+    <Transaction>2022/10/19 20:12:18.778,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\UTime.pas=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio06\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

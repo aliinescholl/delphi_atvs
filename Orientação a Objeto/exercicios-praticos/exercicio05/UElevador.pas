@@ -5,73 +5,133 @@ interface
 type
 TELevador =  class
   private
-  Ftamanho : Double;
-  Fpeso_maximo : Double;
-    function GetTamanho: Double;
-    procedure SetTamanho(const Value: Double);
-    function GetPeso: Double;
-    procedure SetPeso(const Value: Double);
-  public
-  function Subir : Integer;
-  function Descer : Integer;
-  function Escolher(const aescolher : Integer) : Integer;
-  procedure Andar;
+  FCapacidadeElevador : Integer;
+  FTotalAndares : Integer;
+  FAndarAtual : Integer;
+  Fpessoas : Integer;
 
-  property Tamanho : Double read GetTamanho write SetTamanho;
-  property Peso : Double read GetPeso write SetPeso;
+  function Subir : String;
+  function Descer : String;
+    function  GetAndar: Integer;
+    function  GetCapacidadeElevador: Integer;
+    function  GetTotalAndares: Integer;
+    procedure SetAndar(const Value: Integer);
+    procedure SetCapacidadeElevador(const Value: Integer);
+    procedure SetTotalAndares(const Value: Integer);
+    function GetPessoas: Integer;
+    procedure SetPessoas(const Value: Integer);
+  public
+  procedure Entrar(var aPessoas : Integer);
+  function Sair  (const aPessoas : Integer) : Integer;
+  function Escolher(const aescolher: Integer; 
+                    var apessoa : Integer): String;
+
+
+  property CapacidadeElevador : Integer read GetCapacidadeElevador write SetCapacidadeElevador;
+  property TotalAndares : Integer       read GetTotalAndares       write SetTotalAndares;
+  property AndarAtual : Integer         read GetAndar              write SetAndar;
+  property Pessoas : Integer            read GetPessoas            write SetPessoas;
+  constructor Create(const CapacidadeElevador : Integer; const TotalAndares : Integer);
+
 end;
 implementation
 
 uses
-  Vcl.Dialogs;
+  Vcl.Dialogs, System.SysUtils;
 
 { TELevador }
 
-procedure TELevador.Andar;
+procedure TElevador.Entrar(var aPessoas : Integer);
 begin
-  showmessage('criando pernas pra andar pera ai')
+  //xPessoa := 0;
+  Pessoas := aPessoas + Pessoas;
 end;
 
-function TELevador.Descer : Integer;
+function TELevador.Sair(const aPessoas : Integer) : Integer;
+var
+  xPessoa : integer;
+begin
+  result := xPessoa - Pessoas;
+end;
+
+constructor TElevador.Create(const CapacidadeElevador : Integer; const TotalAndares : Integer);
+begin
+  FCapacidadeElevador := CapacidadeElevador;
+  FTotalAndares       := TotalAndares;
+end;
+
+function TELevador.Descer : String;
 begin
    showmessage('descendo');
 end;
 
-function TELevador.Escolher(const aescolher : Integer): Integer;
-var
-  xLocalAtual : Integer;
-begin
-  xLocalAtual := 0;
-
-  if xLocalAtual > aescolher then
-    Descer
-  else
-    Subir;
-end;
-
-function TELevador.GetPeso: Double;
-begin
-  result := Fpeso_maximo;
-end;
-
-function TELevador.GetTamanho: Double;
-begin
-  result := FTamanho;
-end;
-
-procedure TELevador.SetPeso(const Value: Double);
-begin
-  Fpeso_maximo := Value;
-end;
-
-procedure TELevador.SetTamanho(const Value: Double);
-begin
-  FTamanho := Value;
-end;
-
-function TELevador.Subir: Integer;
+function TELevador.Subir: String;
 begin
    showmessage('Subindo');
+end;
+
+function TELevador.Escolher(const aescolher: Integer; 
+                            var apessoa : Integer): String;
+var
+  xAndarAtual: Integer;
+begin
+  xAndarAtual := 0;
+
+  if aescolher > xAndarAtual then
+    Subir
+  else if aescolher < xAndarAtual then
+    Descer;
+
+  xAndarAtual := aescolher;
+  
+  if aPessoa > 0 then
+    Entrar(aPessoa)
+  else 
+    Sair(apessoa);
+
+  result := 'Você está no andar ' + IntToStr(xAndarAtual) + ' e há ' 
+             + IntToStr(Pessoas) + ' dentro do elevador';
+end;
+
+function TELevador.GetAndar: Integer;
+begin
+  result := FAndarAtual;
+end;
+
+function TELevador.GetCapacidadeElevador: Integer;
+begin
+  result := FCapacidadeElevador;
+end;
+
+function TELevador.GetPessoas: Integer;
+begin
+ result := Fpessoas;
+end;
+
+function TELevador.GetTotalAndares: Integer;
+begin
+  result := FTotalAndares;
+end;
+
+
+procedure TELevador.SetAndar(const Value: Integer);
+begin
+  FAndarAtual := Value;
+end;
+
+procedure TELevador.SetCapacidadeElevador(const Value: Integer);
+begin
+  FCapacidadeElevador := Value;
+end;
+
+procedure TELevador.SetPessoas(const Value: Integer);
+begin
+  Fpessoas := Value;
+end;
+
+procedure TELevador.SetTotalAndares(const Value: Integer);
+begin
+  FTotalAndares := Value;
 end;
 
 end.

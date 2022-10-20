@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="potax2ozwljoci4yn_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:time:UJogador.TJogador">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,116,313" />
+      <reference referencedUin="delphi:e_field:src:time:UJogador.TJogador.FNome" />
+      <reference referencedUin="delphi:e_field:src:time:UJogador.TJogador.FIdade" />
+      <reference referencedUin="delphi:e_field:src:time:UJogador.TJogador.Fposicao" />
+      <reference referencedUin="delphi:e_field:src:time:UJogador.TJogador.FId" />
+      <reference referencedUin="delphi:e_method:src:time:UJogador.TJogador.GetId()" />
+      <reference referencedUin="delphi:e_method:src:time:UJogador.TJogador.GetIdade()" />
+      <reference referencedUin="delphi:e_method:src:time:UJogador.TJogador.Getnome()" />
+      <reference referencedUin="delphi:e_method:src:time:UJogador.TJogador.GetPosicao()" />
+      <reference referencedUin="delphi:e_method:src:time:UJogador.TJogador.SetId(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:time:UJogador.TJogador.Setidade(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:time:UJogador.TJogador.SetNome(System.string)" />
+      <reference referencedUin="delphi:e_method:src:time:UJogador.TJogador.SetPosicao(System.string)" />
+      <reference referencedUin="delphi:e_property:src:time:UJogador.TJogador.Nome" />
+      <reference referencedUin="delphi:e_property:src:time:UJogador.TJogador.Idade" />
+      <reference referencedUin="delphi:e_property:src:time:UJogador.TJogador.Posicao" />
+      <reference referencedUin="delphi:e_property:src:time:UJogador.TJogador.Id" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:time:UJogador.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

@@ -11,6 +11,7 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnClose = FormClose
   PixelsPerInch = 96
   TextHeight = 13
   object btnAndarElevador: TButton
@@ -20,5 +21,6 @@ object Form1: TForm1
     Height = 25
     Caption = 'Clique em mim'
     TabOrder = 0
+    OnClick = btnAndarElevadorClick
   end
 end

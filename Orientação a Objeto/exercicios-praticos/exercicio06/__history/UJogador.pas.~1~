@@ -1,0 +1,19 @@
+unit UJogador;
+
+interface
+
+implementation
+type
+TJogador = class(Ttime)
+  private
+  FNome : String;
+  FIdade : Integer;
+  Fposicao : String;
+  IId : Integer;
+
+  public
+
+
+end;
+
+end.
