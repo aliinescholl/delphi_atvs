@@ -9,7 +9,7 @@ TELevador =  class
   FTotalAndares : Integer;
   FAndarAtual : Integer;
   Fpessoas : Integer;
-
+  FLimite : Integer;
   function Subir : String;
   function Descer : String;
     function  GetAndar: Integer;
@@ -20,18 +20,24 @@ TELevador =  class
     procedure SetTotalAndares(const Value: Integer);
     function GetPessoas: Integer;
     procedure SetPessoas(const Value: Integer);
+    function GetLimite: Integer;
+    procedure SetLimite(const Value: Integer);
+
   public
-  procedure Entrar(var aPessoas : Integer);
-  function Sair  (const aPessoas : Integer) : Integer;
-  function Escolher(const aescolher: Integer; 
-                    var apessoa : Integer): String;
+  function Entrar : Integer;
+  function Sair  : Integer;
+  function Escolher(const aescolher: Integer): Integer;
+  function Listar : String;
 
 
   property CapacidadeElevador : Integer read GetCapacidadeElevador write SetCapacidadeElevador;
   property TotalAndares : Integer       read GetTotalAndares       write SetTotalAndares;
   property AndarAtual : Integer         read GetAndar              write SetAndar;
   property Pessoas : Integer            read GetPessoas            write SetPessoas;
-  constructor Create(const CapacidadeElevador : Integer; const TotalAndares : Integer);
+  property Limite : Integer             read GetLimite             write SetLimite;
+  constructor Create(const CapacidadeElevador : Integer;
+                     const TotalAndares : Integer = 0; const AndarAtual:Integer = 0;
+                     const Pessoas : Integer = 0 ;const Limite : Integer = 0);
 
 end;
 implementation
@@ -41,37 +47,44 @@ uses
 
 { TELevador }
 
-procedure TElevador.Entrar(var aPessoas : Integer);
+function TElevador.Entrar : Integer;
 begin
-  //xPessoa := 0;
-  Pessoas := aPessoas + Pessoas;
+  if Pessoas > Limite then
+    raise Exception.Create('Limite atingido!');
+  Pessoas := Pessoas + 1;
+  result := Pessoas ;
 end;
 
-function TELevador.Sair(const aPessoas : Integer) : Integer;
-var
-  xPessoa : integer;
+function TELevador.Sair : Integer;
 begin
-  result := xPessoa - Pessoas;
+  if Pessoas < 0 then
+    raise Exception.Create('Não é possível remover ninguém');
+  Pessoas := Pessoas - 1;
+  result := Pessoas;
 end;
 
-constructor TElevador.Create(const CapacidadeElevador : Integer; const TotalAndares : Integer);
+constructor TElevador.Create(const CapacidadeElevador : Integer; const TotalAndares : Integer = 0;
+                              const AndarAtual : Integer = 0; const Pessoas : Integer = 0 ;
+                              const Limite : Integer = 0);
 begin
   FCapacidadeElevador := CapacidadeElevador;
   FTotalAndares       := TotalAndares;
+  FAndarAtual         := AndarAtual;
+  FPessoas            := Pessoas;
+  FLimite             := Limite;
 end;
 
 function TELevador.Descer : String;
 begin
-   showmessage('descendo');
+   result := 'Descendo...';
 end;
 
 function TELevador.Subir: String;
 begin
-   showmessage('Subindo');
+   result := 'Subindo...';
 end;
 
-function TELevador.Escolher(const aescolher: Integer; 
-                            var apessoa : Integer): String;
+function TELevador.Escolher(const aescolher: Integer): Integer;
 var
   xAndarAtual: Integer;
 begin
@@ -83,14 +96,11 @@ begin
     Descer;
 
   xAndarAtual := aescolher;
-  
-  if aPessoa > 0 then
-    Entrar(aPessoa)
-  else 
-    Sair(apessoa);
 
-  result := 'Você está no andar ' + IntToStr(xAndarAtual) + ' e há ' 
-             + IntToStr(Pessoas) + ' dentro do elevador';
+  if Pessoas > Limite then
+    raise Exception.Create('Limite de pessoas excedido');
+
+  result := xAndarAtual;
 end;
 
 function TELevador.GetAndar: Integer;
@@ -103,6 +113,11 @@ begin
   result := FCapacidadeElevador;
 end;
 
+function TELevador.GetLimite: Integer;
+begin
+  result := FLimite;
+end;
+
 function TELevador.GetPessoas: Integer;
 begin
  result := Fpessoas;
@@ -113,6 +128,11 @@ begin
   result := FTotalAndares;
 end;
 
+function TELevador.Listar: String;
+begin
+  result := 'Você está no andar ' + IntToStr(AndarAtual) + ' e há ' + SlineBreak
+             + IntToStr(Pessoas) + ' dentro do elevador';
+end;
 
 procedure TELevador.SetAndar(const Value: Integer);
 begin
@@ -122,6 +142,11 @@ end;
 procedure TELevador.SetCapacidadeElevador(const Value: Integer);
 begin
   FCapacidadeElevador := Value;
+end;
+
+procedure TELevador.SetLimite(const Value: Integer);
+begin
+  FLimite := Value;
 end;
 
 procedure TELevador.SetPessoas(const Value: Integer);
