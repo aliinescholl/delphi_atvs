@@ -3,13 +3,13 @@
 	<Transactions>
     <Transaction>2022/10/04 21:23:32.000.661,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2022/10/05 19:41:17.000.084,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/21 21:18:45.995,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/21 21:22:27.700,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio07\frmEscola.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/21 21:22:27.700,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio07\frmEscola.dfm=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/10/21 21:22:34.956,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/21 21:22:51.846,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio07\UAluno.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/21 21:22:59.074,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/21 21:23:10.915,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio07\TDisciplina.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/21 21:23:45.708,C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio07\TEscola.dproj=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/10/21 21:18:45.000.995,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/21 21:22:27.000.700,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio07\frmEscola.pas</Transaction>
+    <Transaction>2022/10/21 21:22:27.000.700,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio07\frmEscola.dfm</Transaction>
+    <Transaction>2022/10/21 21:22:34.000.956,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/21 21:22:51.000.846,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio07\UAluno.pas</Transaction>
+    <Transaction>2022/10/21 21:22:59.000.074,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/21 21:23:10.000.915,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio07\TDisciplina.pas</Transaction>
+    <Transaction>2022/10/21 21:23:45.000.708,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Documents\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio07\TEscola.dproj</Transaction>
   </Transactions>
 </BorlandProject>
