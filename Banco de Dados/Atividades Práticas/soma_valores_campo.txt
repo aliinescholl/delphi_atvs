@@ -1,7 +1,0 @@
-SELECT * FROM sakila.payment where payment_id in(1,2);
-
-soma dos valores dos campos que tem o mesmo id 
-
-select sum(amount),customer_id 
-     from payment 
-     group by customer_id;
