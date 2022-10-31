@@ -1,0 +1,15 @@
+aula banco de dados dia 28/10/2022
+select
+
+use sakila;
+select * from actor;
+
+update actor set last_update = '2022-10-28 18:26:00'
+where actor_id = 2;
+delete from actor where actor_id = 200;
+insert into actor (first_name, last_name, last_update)
+	   values('Brad', 'Pitt', '2022-10-28 18:40:00');
+       
+delete 
+	from actor 
+		where actor_id = 201;

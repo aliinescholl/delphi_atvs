@@ -1,0 +1,18 @@
+use nome_database;
+create table Pessoas(
+	id_pessoa tinyint auto_increment not null unique,
+    	last_name varchar(15)not null,
+    	first_name varchar(15)not null ,
+   	age tinyint unsigned not null,
+   	primary key (id_pessoa)
+);
+
+create table Pedidos(
+	id_pedido tinyint auto_increment not null unique,
+  	order_number integer  not null unique,
+   	id_pessoa tinyint not null,
+   	primary key(id_pedido),
+	foreign key(id_pessoa) references Pessoas(id_pessoa)
+);
+
+
