@@ -5,7 +5,7 @@ Durante o curso obtive conhecimento sobre:
 - Conceitos Solid (para melhor coesão dos códigos e programar com eficiência);
 - Banco de Dados.
 
-O que é Devs2Blu?
+**O que é Devs2Blu?**
 
 O +Devs2Blu é um programa de capacitação tech, sendo uma Iniciativa da Prefeitura 
 de Blumenau com apoio do Blusoft-Acate, em parceria a empresas âncoras para aceleração
