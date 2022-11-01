@@ -1,0 +1,160 @@
+﻿object FrmCompradores: TFrmCompradores
+  Left = 0
+  Top = 0
+  Caption = 'Compradores'
+  ClientHeight = 439
+  ClientWidth = 617
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 48
+    Top = 71
+    Width = 15
+    Height = 19
+    Caption = 'Id'
+    FocusControl = DBEdit1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 48
+    Top = 125
+    Width = 42
+    Height = 19
+    Caption = 'Nome'
+    FocusControl = DBEdit2
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 48
+    Top = 183
+    Width = 42
+    Height = 19
+    Caption = 'Cargo'
+    FocusControl = DBEdit3
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 32
+    Top = 24
+    Width = 360
+    Height = 33
+    DataSource = DataSource1
+    TabOrder = 0
+  end
+  object DBGrid1: TDBGrid
+    Left = 48
+    Top = 251
+    Width = 561
+    Height = 120
+    DataSource = DataSource1
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        Visible = True
+      end>
+  end
+  object DBEdit1: TDBEdit
+    Left = 48
+    Top = 96
+    Width = 134
+    Height = 27
+    DataField = 'Id'
+    DataSource = DataSource1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object DBEdit2: TDBEdit
+    Left = 48
+    Top = 150
+    Width = 200
+    Height = 27
+    DataField = 'Nome'
+    DataSource = DataSource1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object DBEdit3: TDBEdit
+    Left = 48
+    Top = 208
+    Width = 200
+    Height = 27
+    DataField = 'Cargo'
+    DataSource = DataSource1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+  object FDTable: TFDTable
+    IndexFieldNames = 'Id'
+    Connection = dmPedidos.FDConexão
+    TableName = 'devs2blu.comprador'
+    Left = 504
+    Top = 128
+    object FDTableId: TFDAutoIncField
+      FieldName = 'Id'
+      Origin = 'Id'
+      ProviderFlags = [pfInWhere, pfInKey]
+    end
+    object FDTableNome: TStringField
+      FieldName = 'Nome'
+      Origin = 'Nome'
+      Required = True
+      Size = 250
+    end
+    object FDTableCargo: TStringField
+      FieldName = 'Cargo'
+      Origin = 'Cargo'
+      Required = True
+      Size = 50
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = FDTable
+    Left = 504
+    Top = 40
+  end
+end

@@ -1,0 +1,25 @@
+unit UdmPedidos;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TdmPedidos = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dmPedidos: TdmPedidos;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

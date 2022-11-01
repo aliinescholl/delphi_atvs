@@ -1,0 +1,9 @@
+object dmPedidos: TdmPedidos
+  OldCreateOrder = False
+  Height = 443
+  Width = 558
+  object FDConnection1: TFDConnection
+    Left = 392
+    Top = 88
+  end
+end

@@ -8,7 +8,7 @@ uses
   Vcl.Imaging.pngimage;
 
 type
-  TForm1 = class(TForm)
+  TFrmPrincipal = class(TForm)
     Panel1: TPanel;
     Image1: TImage;
     Image2: TImage;
@@ -22,6 +22,9 @@ type
     Label5: TLabel;
     Panel2: TPanel;
     Image6: TImage;
+    procedure FormCreate(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure Image1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -29,10 +32,21 @@ type
   end;
 
 var
-  Form1: TForm1;
+  FrmPrincipal: TFrmPrincipal;
 
 implementation
 
 {$R *.dfm}
+
+uses UfrmCompradores;
+
+procedure TFrmPrincipal.Image1Click(Sender: TObject);
+begin
+  if not Assigned(frmCompradores) then
+    frmCompradores := TFrmCompradores.Create(Self);
+
+  FrmCompradores.Show;
+
+end;
 
 end.

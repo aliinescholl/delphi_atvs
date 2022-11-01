@@ -1,4 +1,4 @@
-object Form1: TForm1
+object FrmPrincipal: TFrmPrincipal
   Left = 0
   Top = 0
   Cursor = crHandPoint
@@ -12,6 +12,8 @@ object Form1: TForm1
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object Panel1: TPanel
@@ -75,6 +77,7 @@ object Form1: TForm1
         02C849C075A2471BB51308E03F9F22BA6D9C608EF2B78375F69D674E3CBADFEC
         DCD3C4EEE3DF6F458F4DE2ECEEFA891EC25D3B3F745FB1561050D97611C2DC44
         F5AD5A5B420000000049454E44AE426082}
+      OnClick = Image1Click
     end
     object Image2: TImage
       Left = 246

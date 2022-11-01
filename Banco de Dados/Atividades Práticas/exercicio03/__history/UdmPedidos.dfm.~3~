@@ -1,0 +1,5 @@
+object dmPedidos: TdmPedidos
+  OldCreateOrder = False
+  Height = 443
+  Width = 558
+end

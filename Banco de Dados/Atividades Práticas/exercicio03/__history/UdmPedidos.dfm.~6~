@@ -1,0 +1,18 @@
+﻿object dmPedidos: TdmPedidos
+  OldCreateOrder = False
+  Height = 443
+  Width = 558
+  object FDConexão: TFDConnection
+    Params.Strings = (
+      'Database=devs2blu'
+      'User_Name=root'
+      'Password=root'
+      'DriverID=MySQL')
+    Left = 392
+    Top = 88
+  end
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    Left = 368
+    Top = 264
+  end
+end
