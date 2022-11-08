@@ -138,7 +138,6 @@
       FieldName = 'Id'
       Origin = 'Id'
       ProviderFlags = [pfInWhere, pfInKey]
-      ReadOnly = True
     end
     object FDTableNome: TStringField
       FieldName = 'Nome'
