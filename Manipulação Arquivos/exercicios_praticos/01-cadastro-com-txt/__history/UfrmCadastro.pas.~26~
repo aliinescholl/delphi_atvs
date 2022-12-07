@@ -50,9 +50,8 @@ end;
 procedure TForm2.btnListarClick(Sender: TObject);
 var
   xNome, xLinha,
-  xDataNascimento,
-  xCodigo : String;
-  i         : Integer;
+  xDataNascimento : String;
+  xCodigo, i         : Integer;
 begin
   mmLista.Clear;
 
@@ -61,9 +60,8 @@ begin
   try
     while (not Eof(FArq)) do
       begin
-        xCodigo := FCodigo.ToString;
-
         ReadLn(FArq, xLinha);
+        Inc(FCodigo);
 
         i     := pos('|', xNome);
         xNome := copy(xLinha, 1, i-1);
@@ -75,15 +73,10 @@ begin
 
         i       := pos('|', xCodigo);
         xCodigo := copy(xLinha, 1, i-1);
-        delete(xLinha, 1, i);
-
-        mmLista.Lines.Add('Nome: ' + xNome);
-        mmLista.Lines.Add('Data Nascimento' + xDataNascimento);
-        mmLista.Lines.Add(IntToSTr(FCodigo));
+        delete(xLinha
       end;
 
   finally
-
   end;
 end;
 

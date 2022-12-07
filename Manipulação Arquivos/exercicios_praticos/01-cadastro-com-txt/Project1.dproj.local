@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/04 21:23:32.000.661,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 19:41:17.000.084,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/06 21:06:29.000.375,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/12/06 21:10:38.000.197,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_praticos\01-cadastro-com-txt\UfrmCadastro.dfm</Transaction>
+    <Transaction>2022/12/06 21:10:38.000.197,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_praticos\01-cadastro-com-txt\UfrmCadastro.pas</Transaction>
+    <Transaction>2022/12/06 21:24:53.000.048,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_praticos\01-cadastro-com-txt\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

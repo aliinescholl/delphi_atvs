@@ -76,14 +76,9 @@ begin
         i       := pos('|', xCodigo);
         xCodigo := copy(xLinha, 1, i-1);
         delete(xLinha, 1, i);
-
-        mmLista.Lines.Add('Nome: ' + xNome);
-        mmLista.Lines.Add('Data Nascimento' + xDataNascimento);
-        mmLista.Lines.Add(IntToSTr(FCodigo));
       end;
 
   finally
-
   end;
 end;
 

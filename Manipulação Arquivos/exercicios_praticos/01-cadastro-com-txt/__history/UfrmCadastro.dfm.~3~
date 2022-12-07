@@ -43,14 +43,14 @@ object Form2: TForm2
     Left = 40
     Top = 64
     Width = 169
-    Height = 21
+    Height = 25
     TabOrder = 0
   end
   object edtNascimento: TEdit
     Left = 40
     Top = 120
     Width = 169
-    Height = 21
+    Height = 25
     TabOrder = 1
   end
   object btnCadastrar: TButton
@@ -66,7 +66,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 2
-    OnClick = btnCadastrarClick
   end
   object btnListar: TButton
     Left = 40
@@ -81,7 +80,6 @@ object Form2: TForm2
     Font.Style = []
     ParentFont = False
     TabOrder = 3
-    OnClick = btnListarClick
   end
   object mmLista: TMemo
     Left = 24
