@@ -1,0 +1,129 @@
+unit UfrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    edtNome: TEdit;
+    edtPrimeiraNota: TEdit;
+    edtSegundaNota: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    btnGravar: TButton;
+    btnLer: TButton;
+    mmDiario: TMemo;
+    procedure FormShow(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure btnGravarClick(Sender: TObject);
+    procedure btnLerClick(Sender: TObject);
+  private
+    FArq : TextFile;
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.btnGravarClick(Sender: TObject);
+begin
+  if (edtNome.Text <> '') and
+     (edtPrimeiraNota.Text <> '') and
+     (edtSegundaNota.Text <> '') then
+     begin
+       WriteLn(FArq, edtNome.Text,         '|',
+                     edtPrimeiraNota.Text, '|',
+                     edtSegundaNota.Text,  '|');
+       edtNome.Clear;
+       edtPrimeiraNota.Clear;
+       edtSegundaNota.Clear;
+     end;
+
+end;
+
+procedure TForm2.btnLerClick(Sender: TObject);
+var
+  xLinha, xNome : String;
+  xReg, i       : Integer;
+  xNota1,xNota2,xMedia : Double;
+begin
+  mmDiario.Clear;
+
+  Reset(FArq);
+
+  try
+    while (not Eof(FArq)) do
+    begin
+      ReadLn(FArq, xLinha);
+
+      xReg := xReg + 1;
+
+      //nome do aluno
+      i     := pos('|', xLinha);
+      xNome := copy(xLinha, 1, i - 1);
+      delete(xLinha, 1, i);
+
+      //primeira nota
+      i      := pos('|', xLinha);
+      xNota1 := StrToFloatDef(copy(xLinha, 1, i - 1),0);
+      delete(xLinha, 1, i);
+
+      //segunda nota
+      i      := pos('|', xLinha);
+      xNota2 := StrToFloatDef(copy(xLinha, 1, i - 1),0);
+      delete(xLinha, 1, i);
+
+      //processando e exibindo os dados recuperados
+      xMedia := (xNota1 + xNota2) / 2;
+      mmDiario.Lines.Add('Registro Nroº.:' + IntToStr(xReg));
+      mmDiario.Lines.Add('Nome do Aluno :' + xNome);
+      mmDiario.Lines.Add('1ª Nota.......:' + FloatToStr(xNota1));
+      mmDiario.Lines.Add('2ª Nota.......:' + FloatToSTr(xNota2));
+      mmDiario.Lines.Add('Média.........:' + FloatToStr(xMedia));
+
+      if (xMedia >=7) then
+        mmdiario.Lines.Add('Situação.....Aprovado')
+      else
+        mmdiario.Lines.Add('Situação.....Reprovado');
+
+      mmdiario.Lines.Add('');
+    end;
+  finally
+    Append(fArq)
+  end;
+end;
+
+procedure TForm2.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  CloseFile(FArq);
+end;
+
+procedure TForm2.FormShow(Sender: TObject);
+begin
+  AssignFile(FArq, 'diario.txt');
+  {$I-}
+  Reset(FArq);
+
+  if IoResult <> 0 then
+    rewrite(FArq)
+
+  else
+    begin
+      closeFile(FArq);
+      Append(FArq);
+    end;
+
+  {$I+}
+end;
+
+end.

@@ -1,0 +1,6 @@
+aline|9|6|
+jonas|5|9|
+aline|10|10|
+aline|9|10|
+aline|5|5|
+aline|10|9|
