@@ -1,0 +1,49 @@
+unit LendoXML;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Xml.xmldom, Xml.XMLIntf, Xml.XMLDoc,
+  Vcl.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    mmLeitura: TMemo;
+    btExecutar: TButton;
+    XMLDocument1: TXMLDocument;
+    procedure btExecutarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.btExecutarClick(Sender: TObject);
+var
+  xAplicacao, xExecutaveis, xExecutavel,
+  xBibliotecas, xVersao, xDescricao :IXMLNode;
+  xInfNo : TXMLNodeList;
+  i: Integer;
+begin
+  mmLeitura.Clear;
+
+  XMLDocument1.Active := True;
+
+  //busca o nó principal do xml
+  xAplicacao := XMLDocument1.DocumentElement;
+
+  //busca o nó principal dos executáveis
+  xExecutaveis := xAplicacao.ChildNodes.FindNode('executaveis');
+
+
+end;
+
+end.

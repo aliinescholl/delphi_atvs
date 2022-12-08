@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/04 21:23:32.000.661,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 19:41:17.000.084,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/07 18:33:51.000.521,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/12/07 18:35:06.000.927,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_teoricos\LendoXML.dfm</Transaction>
+    <Transaction>2022/12/07 18:35:06.000.927,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_teoricos\LendoXML.pas</Transaction>
+    <Transaction>2022/12/07 18:35:16.000.886,C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_teoricos\LendoXML.dfm=C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_teoricos\04\LendoXML.dfm</Transaction>
+    <Transaction>2022/12/07 18:35:16.000.886,C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_teoricos\LendoXML.pas=C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_teoricos\04\LendoXML.pas</Transaction>
+    <Transaction>2022/12/07 18:36:38.000.965,C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_teoricos\04\LerXML.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

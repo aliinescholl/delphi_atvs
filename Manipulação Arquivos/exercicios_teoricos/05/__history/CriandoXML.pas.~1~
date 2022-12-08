@@ -1,0 +1,28 @@
+unit CriandoXML;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Xml.xmldom, Xml.XMLIntf, Xml.XMLDoc,
+  Vcl.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    mmLeitura: TMemo;
+    btnExecutar: TButton;
+    XMLDocument1: TXMLDocument;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+end.

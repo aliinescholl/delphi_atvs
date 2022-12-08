@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/10/04 21:23:32.000.661,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/05 19:41:17.000.084,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/07 19:17:29.177,=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/12/07 19:18:40.666,C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_teoricos\05\CriandoXML.dfm=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2022/12/07 19:18:40.666,C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_teoricos\05\CriandoXML.pas=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/12/07 20:20:37.702,C:\Users\alinescholl\Desktop\delphi_atvs\Manipulação Arquivos\exercicios_teoricos\05\createXML.dproj=C:\Users\alinescholl\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
