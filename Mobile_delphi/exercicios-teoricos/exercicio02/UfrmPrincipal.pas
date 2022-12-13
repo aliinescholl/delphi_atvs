@@ -32,6 +32,15 @@ type
     Image9: TImage;
     ListBox1: TListBox;
     FloatAnimation1: TFloatAnimation;
+    procedure FormCreate(Sender: TObject);
+    procedure FloatAnimation1Finish(Sender: TObject);
+    {$IFDEF MSWINDOWS}
+    procedure MenuClick(Sender : TObject);
+    {$ELSE}
+    procedure MenuTap(Sender:TObject; const Point : TpointF);
+    {$ENDIF}
+    procedure lytgeneroClick(Sender: TObject);
+    procedure Image9Click(Sender: TObject);
   private
     procedure LoadMenu;
     procedure OpenMenu (ind:Boolean);
@@ -49,6 +58,28 @@ implementation
 {$R *.fmx}
 
 { TForm1 }
+
+procedure TForm1.FloatAnimation1Finish(Sender: TObject);
+begin
+  if lytmenugeneros.Tag = 0 then
+     lytmenugeneros.Visible := False;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  imgCartaz.Position.x := 0;
+  imgCartaz.Position.y := 0;
+  imgcartaz.Width      := 676;
+  imgcartaz.Height     := 450;
+
+  Self.LoadMenu;
+  Self.OpenMenu(False);
+end;
+
+procedure TForm1.Image9Click(Sender: TObject);
+begin
+  Self.OpenMenu(False);
+end;
 
 procedure TForm1.LoadMenu;
 begin
@@ -70,6 +101,26 @@ begin
   Self.SetupMenu(TListBoxItem.Create(ListBox1), 'Terror');
 end;
 
+procedure TForm1.lytgeneroClick(Sender: TObject);
+begin
+  Self.OpenMenu(True);
+end;
+
+{$IFDEF MSWINDOWS}
+procedure TForm1.MenuClick(Sender: TObject);
+begin
+   lblfilter.Text := TListBoxItem(Sender).Text;
+   Self.OpenMenu(False);
+end;
+
+{$ELSE}
+procedure TForm1.MenuTap(Sender: TObject; const Point: TpointF);
+begin
+  lblfilter.Text := TListBoxItem(Sender).Text;
+  Self.OpenMenu(False);
+end;
+
+{$ENDIF}
 procedure TForm1.OpenMenu(ind: Boolean);
 begin
   ListBox1.Index := -1;
@@ -80,7 +131,7 @@ begin
   begin
     lytmenuGeneros.Visible := True;
     lytmenuGeneros.Tag     := 1;
-    lytgenero.AnimateFloat('Opacity', 0, 0.2);
+    lytmenuGeneros.AnimateFloat('Opacity', 0, 0.2);
     FloatAnimation1.Inverse := False;
   end
   else
@@ -95,7 +146,31 @@ end;
 
 procedure TForm1.SetupMenu(Item: TListBoxItem; texto: String);
 begin
+  Item.Text := Texto;
+  Item.StyledSettings := Item.StyledSettings
+   - [TStyledSetting.Size, TStyledSetting.FontColor, TStyledSetting.Other];
+   Item.TextSettings.HorzAlign := TTextAlign.Center;
+   Item.HitTest := True;
 
+   {$IFDEF MSWINDOWS}
+    Item.OnClick := Self.MenuClick;
+   {$ELSE}
+    Item.OnTap  := Self.MenuTap;
+   {$ENDIF}
+   if ListBox1.Items.Count > 0 then
+   begin
+     Item.FontColor := $FFC3C3C3;
+     Item.FOnt.Size := 20;
+     Item.Height    := 80;
+   end
+   else
+   begin
+     Item.FontColor := $FFFFFFFF;
+     Item.Font.Size := 25;
+     Item.Height    := 110;
+   end;
+
+    ListBox1.AddObject(item);
 end;
 
 end.
