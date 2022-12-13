@@ -1,0 +1,39 @@
+unit USplash;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
+  FMX.Objects;
+
+type
+  TForm2 = class(TForm)
+    Layout1: TLayout;
+    Image1: TImage;
+    Timer1: TTimer;
+    procedure Timer1Timer(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.fmx}
+
+procedure TForm2.Timer1Timer(Sender: TObject);
+begin
+  Application.Createform(Tform2, form2);
+  Application.MainForm := form2;
+  form2.Show;
+
+  Timer1.Enabled := False;
+  self.close;
+end;
+
+end.

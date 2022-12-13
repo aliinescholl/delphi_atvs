@@ -1,0 +1,27 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 635
+  ClientWidth = 379
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 379.000000000000000000
+    Size.Height = 635.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Image1: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Align = Center
+      Size.Width = 129.000000000000000000
+      Size.Height = 137.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

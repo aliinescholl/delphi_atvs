@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022/12/12 19:26:56.858,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/12 19:27:25.468,C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio02\NetflixReplica.fmx=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2022/12/12 19:27:25.468,C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio02\NetflixReplica.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/12 19:27:36.823,C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio02\ReplicaNetflixDelphi.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/12/12 19:32:57.530,C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio02\UfrmPrincipal.fmx=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio02\NetflixReplica.fmx</Transaction>
+    <Transaction>2022/12/12 19:32:57.530,C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio02\UfrmPrincipal.pas=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio02\NetflixReplica.pas</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>
