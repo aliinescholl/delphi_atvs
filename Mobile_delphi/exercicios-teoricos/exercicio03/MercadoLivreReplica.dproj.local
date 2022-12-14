@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/13 20:32:19.000.813,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/13 20:34:55.000.118,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio03\Unit1.fmx</Transaction>
+    <Transaction>2022/12/13 20:34:55.000.118,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio03\Unit1.pas</Transaction>
+    <Transaction>2022/12/13 20:35:12.000.368,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio03\MercadoLivreReplica.dproj</Transaction>
+    <Transaction>2022/12/13 20:35:36.000.498,C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio03\Unit1.fmx=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio03\UfrmPrincipal.fmx</Transaction>
+    <Transaction>2022/12/13 20:35:36.000.498,C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio03\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio03\UfrmPrincipal.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>
