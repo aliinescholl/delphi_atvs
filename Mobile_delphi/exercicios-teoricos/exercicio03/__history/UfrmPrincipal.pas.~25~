@@ -1,0 +1,149 @@
+unit UfrmPrincipal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Objects, FMX.Layouts;
+
+type
+  TForm1 = class(TForm)
+    VertScrollBox1: TVertScrollBox;
+    Rectangle1: TRectangle;
+    LblTitulo: TLabel;
+    lytProduto: TLayout;
+    lblReaisProduto: TLabel;
+    lblProduto: TLabel;
+    lblCentavosProduto: TLabel;
+    lytEnvio: TLayout;
+    lblTituloEnvio: TLabel;
+    lblReaisEnvio: TLabel;
+    lblCentavosEnvio: TLabel;
+    Line1: TLine;
+    lytParcelas: TLayout;
+    lblTituloParcelas: TLabel;
+    lblReaisParcelas: TLabel;
+    lblCentavosParcelas: TLabel;
+    lblParcelasParcelas: TLabel;
+    lyt_botao_compra: TLayout;
+    Rectangle2: TRectangle;
+    SpeedButton1: TSpeedButton;
+    lyt_compra_ok: TLayout;
+    Image1: TImage;
+    lyt_loading_compra: TLayout;
+    Rec_fundo: TRectangle;
+    Rec_barra: TRectangle;
+    Label1: TLabel;
+    rect_fundo_branco: TRectangle;
+    lyt_detalhes: TLayout;
+    rec_fundo_branco_bottom: TRectangle;
+    circuloEndereco: TCircle;
+    lbl2Produto: TLabel;
+    lblQuantidade: TLabel;
+    circuloProduto: TCircle;
+    linhaProduto: TLine;
+    lblEndereco: TLabel;
+    lblComplemento: TLabel;
+    lblComprador: TLabel;
+    procedure FormShow(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
+  private
+    FLoop : String;
+
+    procedure LoadingCompra(aInd: Boolean);
+    procedure Comprar_WS;
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+{ TForm1 }
+
+procedure TForm1.Comprar_WS;
+begin
+  TThread.CreateAnonymousThread(procedure
+  begin
+    Sleep(5000);
+    //...
+    //...
+    //...
+    FLoop := 'OK';
+  end).Start;
+end;
+
+procedure TForm1.FormShow(Sender: TObject);
+begin
+  self.LoadingCompra(False);
+end;
+
+procedure TForm1.LoadingCompra(aInd: Boolean);
+begin
+  rect_fundo_branco.Visible := aInd;
+  rec_fundo_branco_bottom.Visible := aInd;
+
+  lyt_botao_compra.Visible := not aInd;
+  lyt_loading_compra.Visible := aInd;
+  lyt_compra_ok.Visible := False;
+  lyt_compra_ok.Opacity := 0;
+end;
+
+procedure TForm1.SpeedButton1Click(Sender: TObject);
+begin
+  Self.LoadingCompra(True);
+  Rec_barra.Margins.Right := Rec_fundo.Width;
+  FLoop := 'S';
+
+  Self.Comprar_ws;
+
+  TThread.CreateAnonymousThread(procedure
+  begin
+    while FLoop = 'S' do
+    begin
+      if rec_barra.Margins.Right <= 0 then
+        Rec_barra.Margins.Right := Rec_fundo.Width;
+
+      Sleep(150);
+
+      TThread.Synchronize(nil, procedure
+      begin
+        Rec_barra.Margins.Right := Rec_barra.Margins.Right - 1;
+      end);
+    end;
+    //deu erro
+    if Floop = 'ERRO' then
+    begin
+      TThread.Synchronize(nil, procedure
+      begin
+         Self.LoadingCompra(False);
+         ShowMessage('Erro ao finalizar compra');
+      end);
+    end;
+    //deu certo
+    if Floop = 'OK' then
+    begin
+      TThread.Synchronize(nil, procedure
+      begin
+        lyt_loading_compra.AnimateFloat('Margins.Left', 150, 0.3);
+        lyt_loading_compra.AnimateFloat('Margins.Right', 150 , 0.3);
+        lyt_loading_compra.AnimateFloat('Opacity', 0, 0.3);
+
+        Sleep(450);
+
+        TThread.Synchronize(nil, procedure
+        begin
+          ShowMessage('Compra realizada com sucesso');
+        end);
+      end);
+    end;
+  end)
+end;
+
+end.
