@@ -3,7 +3,8 @@ program JogoDaVelha;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  UfrmPrincipal in 'UfrmPrincipal.pas' {Form1};
+  UfrmPrincipal in 'UfrmPrincipal.pas' {Form1},
+  UJogoVelha in 'UJogoVelha.pas';
 
 {$R *.res}
 

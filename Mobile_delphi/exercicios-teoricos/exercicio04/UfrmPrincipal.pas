@@ -5,7 +5,7 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
-  FMX.Layouts, FMX.TabControl, FMX.Effects;
+  FMX.Layouts, FMX.TabControl, FMX.Effects, UJogoVelha;
 
 type
   TForm1 = class(TForm)
@@ -79,7 +79,7 @@ implementation
 
 procedure TForm1.AnimarFimJogo(const aRetangulo: TRectangle);
 begin
-  rect_fim_jogo.Visible := True;
+  rect_fim_de_jogo.Visible := True;
   rect_progresso.Width  := 20;
 
   aRetangulo.Opacity := 0;
@@ -104,15 +104,15 @@ begin
         Rect_progresso.AnimateFloat('width', Rect_progresso.Width + 50, 0.3);
       end);
 
-      Sleep(150);
-    end);
+      Sleep(150)
+    end;
 
    TThread.Synchronize(nil, procedure
-   begin)
+   begin
      aRetangulo.Visible := False;
-     rect_fim_jogo.Visible := False;
+     Rect_fim_de_jogo.Visible := False;
 
-     Self.ReiniciarJogo.
+     Self.ReiniciarJogo
    end);
   end).Start;
 end;
@@ -146,7 +146,7 @@ begin
                             xLinha,
                             xColuna );
 
-  xRetangulo := Rectangle(FindComponent('rect_' + aCoordenadas));
+  xRetangulo := TRectangle(FindComponent('rect_' + aCoordenadas));
 
   if Assigned(xRetangulo) then
   begin
@@ -215,7 +215,7 @@ begin
   xLinha  := StrToInt(Copy(xCoordenadas, 1, 1));
   xColuna := StrToInt(Copy(xCoordenadas, 3, 1));
 
-  FJogoVelha.RealizarJogada(TJOgador, TpPlayer1,
+  FJogoVelha.RealizarJogada( TpPlayer1,
                             xLinha,
                             xColuna );
   xImagem         := TImage(FindComponent('img_' + xCoordenadas));
@@ -234,14 +234,14 @@ begin
     FJogoVelha.VerificarFimDoJogo(TJogador.tpCpu);
 
     if FJogoVelha.FimJogo then
-      Self.AnimarFimDoJogo(Rect_game_over);
+      Self.AnimarFimJogo(Rect_game_over);
   end
   else
   begin
     if (FJogoVelha.Jogadas < 5) or (FJogoVelha.FimJogo) then
       Self.AnimarFimJogo(rect_parabens)
     else
-      Self.AnimaeFimJogo(rect_deu_velha);
+      Self.AnimarFimJogo(rect_deu_velha);
   end;
 
 end;

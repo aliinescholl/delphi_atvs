@@ -2,10 +2,14 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/12/19 18:39:45.000.471,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/12/19 19:08:44.934,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/12/19 19:09:47.574,C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio04\UfrmPrincipal.fmx=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
-    <Transaction>2022/12/19 19:09:47.574,C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio04\UfrmPrincipal.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/12/19 19:13:36.518,C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio04\JogoDaVelha.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-  </Transactions>  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
-  </ActiveMobileDevice>
+    <Transaction>2022/12/19 19:08:44.000.934,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/19 19:09:47.000.574,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio04\UfrmPrincipal.pas</Transaction>
+    <Transaction>2022/12/19 19:09:47.000.574,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio04\UfrmPrincipal.fmx</Transaction>
+    <Transaction>2022/12/19 19:13:36.000.518,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio04\JogoDaVelha.dproj</Transaction>
+    <Transaction>2022/12/20 18:31:33.737,=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio04\Unit1.pas</Transaction>
+    <Transaction>2022/12/20 18:31:43.777,C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio04\UJogoVelha.pas=C:\Users\mysql\Desktop\delphi_atvs\Mobile_delphi\exercicios-teoricos\exercicio04\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
 </BorlandProject>
