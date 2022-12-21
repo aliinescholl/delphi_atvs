@@ -205,7 +205,7 @@ var
   xCoordenadas : String;
   xLinha, xColuna : Byte;
   xRetangulo : TRectangle;
-  xImagem : TImage;
+  xImagem    : TImage;
 begin
   xRetangulo := (Sender as TRectangle);
 
@@ -243,6 +243,6 @@ begin
     else
       Self.AnimarFimJogo(rect_deu_velha);
   end;
-
+  xRetangulo.HitTest := True;
 end;
 end.

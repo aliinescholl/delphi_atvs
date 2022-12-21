@@ -1,0 +1,33 @@
+unit UfrmPrincipal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts,
+  FMX.Objects;
+
+type
+  TForm1 = class(TForm)
+    Layout1: TLayout;
+    Layout2: TLayout;
+    Circle1: TCircle;
+    Circle2: TCircle;
+    RoundRect1: TRoundRect;
+    Layout3: TLayout;
+    Text1: TText;
+    Circle3: TCircle;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+end.
