@@ -61,6 +61,10 @@ type
     Rectangle17: TRectangle;
     Text18: TText;
     Image1: TImage;
+    Layout12: TLayout;
+    Image2: TImage;
+    Image3: TImage;
+    Image4: TImage;
   private
     { Private declarations }
   public
