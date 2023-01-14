@@ -15,15 +15,17 @@ object Form1: TForm1
   PixelsPerInch = 96
   TextHeight = 13
   object MainMenu1: TMainMenu
-    Left = 64
+    Left = 24
     Top = 8
     object Relatrios1: TMenuItem
       Caption = 'Relat'#243'rios'
       object Exerccio011: TMenuItem
         Caption = 'Exerc'#237'cio 01'
+        OnClick = Exerccio011Click
       end
       object Exerccio021: TMenuItem
         Caption = 'Exerc'#237'cio 02'
+        OnClick = Exerccio021Click
       end
       object Exerccio031: TMenuItem
         Caption = 'Exerc'#237'cio 03'

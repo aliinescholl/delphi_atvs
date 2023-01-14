@@ -21,7 +21,11 @@ type
     frxDBDataset1: TfrxDBDataset;
     FDQuery1: TFDQuery;
     frxPDFExport1: TfrxPDFExport;
+    procedure btnExportarClick(Sender: TObject);
+    procedure btnVisualizarClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
+  procedure PrepararFiltro;
     { Private declarations }
   public
     { Public declarations }
@@ -33,5 +37,46 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TFormRelActor.btnExportarClick(Sender: TObject);
+var
+  xCaminho : String;
+begin
+  Self.PrepararFiltro;
+
+  xCaminho := ExtractFilePath(Application.ExeName) + 'temp';
+
+  if not DirectoryExists(xCaminho) then
+    ForceDirectories(xCaminho);
+
+  frxPDFExport1.FileName := Format ('%s\RelatorioAtores.pdf', [xCaminho]);
+  frxReport1.PrepareReport;
+  frxReport1.Export(frxPDFExport1);
+end;
+
+procedure TFormRelActor.btnVisualizarClick(Sender: TObject);
+begin
+  Self.PrepararFiltro;
+
+  frxReport1.ShowReport;
+end;
+
+procedure TFormRelActor.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := Cafree;
+  FDQuery1.Close;
+
+  FormRelActor := Nil;
+end;
+
+procedure TFormRelActor.PrepararFiltro;
+begin
+  FDQuery1.Close;
+  FDQuery1.ParamByName('LASTNAME').AsString := '';
+
+  if Trim(edtLastName.Text) <> EmptyStr then
+    FDQuery1.ParamByName('LASTNAME').AsString := '%' + Trim(edtLastName.Text) + '%';
+  FDQuery1.Open;
+end;
 
 end.

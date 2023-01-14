@@ -13,6 +13,8 @@ type
     Exerccio011: TMenuItem;
     Exerccio021: TMenuItem;
     Exerccio031: TMenuItem;
+    procedure Exerccio011Click(Sender: TObject);
+    procedure Exerccio021Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -24,6 +26,25 @@ var
 
 implementation
 
+uses
+  UfrmAtores, UfrmRelCidades;
+
 {$R *.dfm}
+
+procedure TForm1.Exerccio011Click(Sender: TObject);
+begin
+  if not assigned(formRelActor) then
+    FormRelActor := TformRelActor.Create(Self);
+
+  FormRelActor.Show;
+end;
+
+procedure TForm1.Exerccio021Click(Sender: TObject);
+begin
+  if not assigned(FormRelCidades) then
+    FormRelCidades := TFormRelCidades.Create(Self);
+
+  FormRelCidades.Show;
+end;
 
 end.
