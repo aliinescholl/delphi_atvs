@@ -1,0 +1,61 @@
+unit UfrmCalculadora;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    edtNum1: TEdit;
+    edtNum2: TEdit;
+    cmboperacao: TComboBox;
+    Calcular: TButton;
+    lblResultado: TLabel;
+    procedure FormCreate(Sender: TObject);
+    procedure CalcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+uses
+  UCalculadora;
+
+{$R *.dfm}
+
+procedure TForm1.CalcularClick(Sender: TObject);
+var
+  xCalculadora : TCalculadora;
+begin
+  xCalculadora := TCalculadora.Create;
+
+  try
+  case TOperacao(cmboperacao.ItemIndex) of
+     opSomar:
+     begin
+       lblResultado.Caption := FloatTOStr(xCalculadora.Somar(StrToFloat(edtNum1.Text),
+                              (StrToFloat(edtNum2.Text))));
+     end;
+  end;
+  finally
+    FreeAndnil(xCalculadora);
+  end;
+end;
+
+//procedure TForm1.FormCreate(Sender: TObject);
+//begin
+////  TCalculadora.Create;
+//end;
+
+end.
