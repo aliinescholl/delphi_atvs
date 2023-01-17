@@ -14,10 +14,16 @@ type
   end;
 implementation
 
+uses
+  System.SysUtils;
+
 { Tcalculadora }
 
 function Tcalculadora.Dividir(aNum1, aNum2: Double): Double;
 begin
+  if (anum1 = 0) or (anum2 = 0) then
+    raise Exception.Create('Não é possível dividir um número por zero!');
+
   result := aNum1/aNum2;
 end;
 

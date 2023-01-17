@@ -45,26 +45,26 @@ begin
     case TOperacao(cmboperacao.ItemIndex) of
       opSomar:
       begin
-        xResultado := xCalculadora.Somar(StrToFloat(edtNum1.Text),
-                                      (StrToFloat(edtNum2.Text)));
+        xResultado := xCalculadora.Somar(StrToFloatDef(edtNum1.Text, 0),
+                                         StrToFloatDef(edtNum2.Text, 0));
       end;
 
       opSubtrair:
       begin
-       xResultado := xCalculadora.Subtrair(StrToFloat(edtNum1.Text),
-                                           StrToFloat(edtNum2.Text));
+       xResultado := xCalculadora.Subtrair(StrToFloatDef(edtNum1.Text, 0),
+                                           StrToFloatDef(edtNum2.Text, 0));
       end;
 
       opMultiplicar:
       begin
-       xResultado := xCalculadora.Multiplicar(StrToFloat(edtNum1.Text),
-                                              StrToFloat(edtNum2.Text));
+       xResultado := xCalculadora.Multiplicar(StrToFloatDef(edtNum1.Text, 0),
+                                              StrToFloatDef(edtNum2.Text, 0));
       end;
 
       opDividir:
       begin
-       xResultado := xCalculadora.Dividir(StrToFloat(edtNum1.Text),
-                                              StrToFloat(edtNum2.Text));
+       xResultado := xCalculadora.Dividir(StrToFloatDef(edtNum1.Text, 0),
+                                          StrToFloatDef(edtNum2.Text, 0));
       end;
     end;
 
