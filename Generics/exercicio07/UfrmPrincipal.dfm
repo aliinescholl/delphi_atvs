@@ -1,0 +1,98 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 281
+  ClientWidth = 418
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnEnqueue: TButton
+    Left = 32
+    Top = 40
+    Width = 97
+    Height = 25
+    Caption = 'Enqueue'
+    TabOrder = 0
+    OnClick = btnEnqueueClick
+  end
+  object btnExtract: TButton
+    Left = 32
+    Top = 102
+    Width = 97
+    Height = 25
+    Caption = 'Extract'
+    TabOrder = 1
+    OnClick = btnExtractClick
+  end
+  object btnDequeue: TButton
+    Left = 32
+    Top = 71
+    Width = 97
+    Height = 25
+    Caption = 'Dequeue'
+    TabOrder = 2
+    OnClick = btnDequeueClick
+  end
+  object btnTrimExcess: TButton
+    Left = 32
+    Top = 164
+    Width = 97
+    Height = 25
+    Caption = 'TrimExcess'
+    TabOrder = 3
+    OnClick = btnTrimExcessClick
+  end
+  object btnPeek: TButton
+    Left = 32
+    Top = 133
+    Width = 97
+    Height = 25
+    Caption = 'Peek'
+    TabOrder = 4
+    OnClick = btnPeekClick
+  end
+  object btnCount: TButton
+    Left = 32
+    Top = 195
+    Width = 97
+    Height = 25
+    Caption = 'Count'
+    TabOrder = 5
+    OnClick = btnCountClick
+  end
+  object btnCapacity: TButton
+    Left = 32
+    Top = 226
+    Width = 97
+    Height = 25
+    Caption = 'Capacity'
+    TabOrder = 6
+    OnClick = btnCapacityClick
+  end
+  object Edit1: TEdit
+    Left = 32
+    Top = 13
+    Width = 121
+    Height = 21
+    TabOrder = 7
+    Text = 'Edit1'
+  end
+  object Memo1: TMemo
+    Left = 159
+    Top = 13
+    Width = 234
+    Height = 238
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 8
+  end
+end
