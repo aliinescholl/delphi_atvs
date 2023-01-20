@@ -72,11 +72,6 @@ begin
   result := FQuantidade;
 end;
 
-function TPedido.GetValorTotal: Double;
-begin
-  result := FValorTotal;
-end;
-
 procedure TPedido.setNomeProduto(const Value: String);
 begin
   FNomeProduto := Value;
@@ -90,11 +85,6 @@ end;
 procedure TPedido.Setquantidade(const Value: Integer);
 begin
   FQuantidade := Value;
-end;
-
-procedure TPedido.SetValorTotal(const Value: Double);
-begin
-  FValorTotal := Value;
 end;
 
 end.

@@ -2,9 +2,9 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/12/19 18:39:45.000.471,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/17 18:32:49.890,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/17 18:33:08.763,C:\Users\mysql\Desktop\delphi_atvs\Generics\exercicio01\UfrmPrincipal.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/17 18:33:08.763,C:\Users\mysql\Desktop\delphi_atvs\Generics\exercicio01\UfrmPrincipal.dfm=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/01/17 18:33:35.515,C:\Users\mysql\Desktop\delphi_atvs\Generics\exercicio01\Generics_1.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/01/17 18:32:49.000.890,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/17 18:33:08.000.763,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mysql\Desktop\delphi_atvs\Generics\exercicio01\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2023/01/17 18:33:08.000.763,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Generics\exercicio01\UfrmPrincipal.pas</Transaction>
+    <Transaction>2023/01/17 18:33:35.000.515,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mysql\Desktop\delphi_atvs\Generics\exercicio01\Generics_1.dproj</Transaction>
   </Transactions>
 </BorlandProject>

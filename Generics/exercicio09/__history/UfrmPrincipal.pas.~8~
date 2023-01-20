@@ -1,0 +1,80 @@
+unit UfrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Generics.Collections;
+
+type
+  TPessoa = record
+    CPF: String;
+    Nome: String;
+  end;
+
+  Taa = class(TForm)
+    edtcpf: TEdit;
+    Edit2: TEdit;
+    Memo1: TMemo;
+    btnAdd: TButton;
+    btnRemove: TButton;
+    btnTryGetValue: TButton;
+    BtnTrimExcess: TButton;
+    btnClear: TButton;
+    btnListaValue: TButton;
+    btnListaKey: TButton;
+    btnAddOrSetValue: TButton;
+    btnContainsKey: TButton;
+    btnOnKeyNotify: TButton;
+    btnOnValueNotify: TButton;
+    Label1: TLabel;
+    NOME: TLabel;
+    procedure btnClearClick(Sender: TObject);
+    procedure btnAddClick(Sender: TObject);
+  private
+    FDicionario : TDictionary <String, TPessoa>;
+
+    procedure KeyNotify(Sender:TObject; const aItem: String;
+      aAction:TCollectionNotification);
+    procedure ValueNotify(Sender: TObject; const aItem: TPessoa;
+      aAction: TCollectionNotification);
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  aa: Taa;
+
+implementation
+
+{$R *.dfm}
+
+procedure Taa.btnAddClick(Sender: TObject);
+var
+  xPessoa : TPessoa;
+begin
+  xPessoa.CPF := edtcpf.Text;
+  xPessoa.Nome:= Edit2.text;
+
+  FDicionario.Add(xPessoa.CPF, xPessoa)
+end;
+
+procedure Taa.btnClearClick(Sender: TObject);
+begin
+  memo1.Lines.Clear;
+end;
+
+procedure Taa.KeyNotify(Sender: TObject; const aItem: String;
+  aAction: TCollectionNotification);
+begin
+
+end;
+
+procedure Taa.ValueNotify(Sender: TObject; const aItem: TPessoa;
+  aAction: TCollectionNotification);
+begin
+
+end;
+
+end.

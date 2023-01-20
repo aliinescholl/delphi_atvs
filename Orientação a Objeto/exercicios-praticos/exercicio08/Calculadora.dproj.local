@@ -2,11 +2,11 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/12/19 18:39:45.000.471,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/16 18:30:18.434,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/16 18:30:24.362,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2023/01/16 18:35:46.873,C:\Users\mysql\Desktop\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio08\UCalculadora.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2023/01/16 18:35:56.973,C:\Users\mysql\Desktop\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio08\UfrmCalculadora.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/01/16 18:35:56.973,C:\Users\mysql\Desktop\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio08\UfrmCalculadora.dfm=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/01/16 18:46:53.157,C:\Users\mysql\Desktop\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio08\Calculadora.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/01/16 18:30:18.000.434,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/16 18:30:24.000.362,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/01/16 18:35:46.000.873,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\mysql\Desktop\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio08\UCalculadora.pas</Transaction>
+    <Transaction>2023/01/16 18:35:56.000.973,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mysql\Desktop\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio08\UfrmCalculadora.dfm</Transaction>
+    <Transaction>2023/01/16 18:35:56.000.973,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio08\UfrmCalculadora.pas</Transaction>
+    <Transaction>2023/01/16 18:46:53.000.157,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mysql\Desktop\delphi_atvs\Orientação a Objeto\exercicios-praticos\exercicio08\Calculadora.dproj</Transaction>
   </Transactions>
 </BorlandProject>

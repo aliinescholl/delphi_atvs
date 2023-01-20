@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{5CECC5D8-F29B-4CA5-9364-278673AF1166}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Desconto.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Test\DescontoTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Desconto">
+        <MSBuild Projects="Desconto.dproj"/>
+    </Target>
+    <Target Name="Desconto:Clean">
+        <MSBuild Projects="Desconto.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Desconto:Make">
+        <MSBuild Projects="Desconto.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DescontoTests">
+        <MSBuild Projects="Test\DescontoTests.dproj"/>
+    </Target>
+    <Target Name="DescontoTests:Clean">
+        <MSBuild Projects="Test\DescontoTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DescontoTests:Make">
+        <MSBuild Projects="Test\DescontoTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Desconto;DescontoTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Desconto:Clean;DescontoTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Desconto:Make;DescontoTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
