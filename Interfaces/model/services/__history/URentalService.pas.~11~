@@ -1,0 +1,62 @@
+unit URentalService;
+
+interface
+
+uses
+  UBrazilTaxService, UCarRental;
+
+type
+  TRentalService = class
+    private
+    FPricePerday: Double;
+    FPricePerHour: Double;
+
+    FTaxService: TBrazilTaxService;
+    public
+    constructor Create(const aPricePerDay, aPricePerHour: Double;
+      aTaxService: TBrazilTaxService);
+
+    destructor Destroy;override;
+    procedure ProcessInvoice(aCarRental:TCarRental);
+  end;
+
+implementation
+
+uses
+  System.SysUtils;
+
+{ TRentalService }
+
+constructor TRentalService.Create(const aPricePerDay, aPricePerHour: Double;
+  aTaxService: TBrazilTaxService);
+begin
+  FPricePerDay   := aPricePerday;
+  FPricePerHour  := aPricePerHour;
+  FTaxService    := aTaxService;
+  end;
+
+destructor TRentalService.Destroy;
+begin
+  FreeAndNil(FTaxService);
+  inherited;
+end;
+
+procedure TRentalService.ProcessInvoice(aCarRental: TCarRental);
+var
+  xHours,
+  xBasicPayment,
+  xTax:Double;
+begin
+  xHours := DateUtils.MilisencondsBetween(aCarRental.Finish, aCarRental.Start)
+  / 1000 / 60 / 60;
+
+  if xHours <= 12 then
+    xBasicPayment := xPriceHour * Math.Ceil(xHours)
+  else
+    xBasicPayment := FPricePerDay * Math.Ceil(xHours / 24);
+
+  xTax := FTaxService.Tax(xBasicPayment);
+  aCarRental.InVoice := TInVoice.Create(xBasicPayment, xTax);
+end;
+
+end.
