@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/01/23 19:04:40.334,=C:\Users\mysql\Desktop\delphi_atvs\Interfaces\solução com interface\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:04:49.307,C:\Users\mysql\Desktop\delphi_atvs\Interfaces\solução com interface\UTaxService.pas=C:\Users\mysql\Desktop\delphi_atvs\Interfaces\solução com interface\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:07:27.074,C:\Users\mysql\Desktop\delphi_atvs\Interfaces\solução com interface\model\services\UTaxService.pas=C:\Users\mysql\Desktop\delphi_atvs\Interfaces\solução com interface\UTaxService.pas</Transaction>
+    <Transaction>2023/01/23 19:09:46.246,=C:\Users\mysql\Desktop\delphi_atvs\Interfaces\solução com interface\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:10:18.691,C:\Users\mysql\Desktop\delphi_atvs\Interfaces\solução com interface\model\services\UUSATaxService.pas=C:\Users\mysql\Desktop\delphi_atvs\Interfaces\solução com interface\Unit1.pas</Transaction>
+  </Transactions>
+  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="model"/>
+    <File Path="model\entities"/>
+    <File Path="model\entities\UCarRental.pas"/>
+    <File Path="model\entities\UInvoice.pas"/>
+    <File Path="model\entities\UVehicle.pas"/>
+    <File Path="model\services"/>
+    <File Path="model\services\UBrazilTaxService.pas"/>
+    <File Path="model\services\URentalService.pas"/>
+    <File Path="model\services\UTaxService.pas"/>
+    <File Path="model\services\UUSATaxService.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
