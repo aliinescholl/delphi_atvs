@@ -1,0 +1,15 @@
+unit UDell;
+
+interface
+
+uses
+  UInterface;
+
+type
+  TDell = class (TInterfacedObject, IFactoryMarca)
+
+  end;
+
+implementation
+
+end.

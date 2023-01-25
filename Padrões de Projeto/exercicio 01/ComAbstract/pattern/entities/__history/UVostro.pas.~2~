@@ -1,0 +1,16 @@
+unit UVostro;
+
+interface
+
+uses
+  UInterface;
+
+type
+  TVostro = class (InterfacedObject, INotebook)
+    function BuscarTamanhoTela: String;
+    function BuscarMemoriaRAM: String;
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,28 @@
+unit UInspiron;
+
+interface
+
+uses
+  UInterface;
+
+type
+  TInspiron = class (TInterfacedObject, IDesktop)
+    function ConsultarNotebook: INotebook;
+    function ConsultarDesktop : IDesktop;
+  end;
+
+implementation
+
+{ TInspiron }
+
+function TInspiron.ConsultarDesktop: IDesktop;
+begin
+  result := 'intel core i5'
+end;
+
+function TInspiron.ConsultarNotebook: INotebook;
+begin
+  result
+end;
+
+end.

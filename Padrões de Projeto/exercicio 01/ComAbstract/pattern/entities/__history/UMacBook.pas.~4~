@@ -1,0 +1,28 @@
+unit UMacBook;
+
+interface
+
+uses
+  UInterface;
+
+type
+  TMacBook = class (TInterfacedObject, INotebook)
+    function BuscarTamanhoTela: String;
+    function BuscarMemoriaRAM: String;
+  end;
+
+implementation
+
+{ TMacBook }
+
+function TMacBook.BuscarMemoriaRAM: String;
+begin
+  result := '8gb ram  ddr4';
+end;
+
+function TMacBook.BuscarTamanhoTela: String;
+begin
+  result := '20 polegadas';
+end;
+
+end.

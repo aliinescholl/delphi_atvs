@@ -1,0 +1,17 @@
+program ComAbstract;
+
+uses
+  Vcl.Forms,
+  UfrmPrincipal in 'UfrmPrincipal.pas' {Form1},
+  UInterface in 'pattern\factorys\UInterface.pas',
+  UDell in 'pattern\factorys\UDell.pas',
+  UApple in 'pattern\factorys\UApple.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

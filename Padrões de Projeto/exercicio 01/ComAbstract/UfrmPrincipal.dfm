@@ -1,0 +1,111 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 421
+  ClientWidth = 241
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ComboBox1: TComboBox
+    Left = 24
+    Top = 32
+    Width = 185
+    Height = 21
+    TabOrder = 0
+    Items.Strings = (
+      'Dell'
+      'Apple')
+  end
+  object Button1: TButton
+    Left = 24
+    Top = 72
+    Width = 185
+    Height = 25
+    Caption = 'Exibir'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object GroupBox1: TGroupBox
+    Left = 24
+    Top = 276
+    Width = 185
+    Height = 105
+    Caption = 'Dados do Desktop'
+    TabOrder = 2
+    object lbltamanhoHD: TLabel
+      Left = 19
+      Top = 66
+      Width = 80
+      Height = 13
+      Caption = 'lbltamanhoHD'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object lblprocessador: TLabel
+      Left = 19
+      Top = 31
+      Width = 83
+      Height = 13
+      Caption = 'lblprocessador'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 24
+    Top = 152
+    Width = 185
+    Height = 105
+    Caption = 'Dados do Notebook'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 3
+    object lblMemoriaRam: TLabel
+      Left = 16
+      Top = 72
+      Width = 89
+      Height = 13
+      Caption = 'lblMemoriaRam'
+    end
+    object lblTamanhoTela: TLabel
+      Left = 16
+      Top = 32
+      Width = 90
+      Height = 13
+      Caption = 'lblTamanhoTela'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -11
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object CardPanel1: TCardPanel
+    Left = 231
+    Top = 32
+    Width = 186
+    Height = 233
+    Caption = 'CardPanel1'
+    TabOrder = 4
+  end
+end

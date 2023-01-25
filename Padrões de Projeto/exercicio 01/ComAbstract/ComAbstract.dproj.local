@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/19 18:39:45.000.471,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 19:33:07.000.852,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/20 20:49:55.000.067,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 18:55:05.000.197,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:15:01.000.411,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:15:50.000.237,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2023/01/24 19:15:50.000.237,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\UfrmPrincipal.pas</Transaction>
+    <Transaction>2023/01/24 19:33:07.000.097,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\SemAbstract\SemAbstract.dproj</Transaction>
+    <Transaction>2023/01/24 19:38:49.000.422,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\UfrmPrincipal.pas</Transaction>
+    <Transaction>2023/01/24 19:39:03.000.036,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\SemAbstract.dproj=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\ComAbstract.dproj</Transaction>
+    <Transaction>2023/01/24 19:39:30.000.463,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:42:38.000.006,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\pattern\factorys\UInterface.pas</Transaction>
+    <Transaction>2023/01/24 19:47:49.000.785,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:48:00.000.207,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\pattern\factorys\UDell.pas</Transaction>
+    <Transaction>2023/01/24 19:51:13.000.058,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:51:29.000.017,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\pattern\factorys\UApple.pas</Transaction>
+    <Transaction>2023/01/24 19:55:00.000.130,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:55:05.000.609,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit2.pas</Transaction>
+    <Transaction>2023/01/24 19:55:09.000.548,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit3.pas</Transaction>
+    <Transaction>2023/01/24 19:55:18.000.520,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit3.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\pattern\entities\UVostro.pas</Transaction>
+    <Transaction>2023/01/24 19:55:31.000.883,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit2.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\pattern\entities\UInspiron.pas</Transaction>
+    <Transaction>2023/01/24 19:56:08.000.699,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\pattern\entities\UMac.pas</Transaction>
+    <Transaction>2023/01/24 19:56:37.000.153,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\pattern\entities\UMac.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\pattern\entities\UIMac.pas</Transaction>
+    <Transaction>2023/01/24 19:56:50.000.255,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 19:57:00.000.790,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 01\ComAbstract\pattern\entities\UMacBook.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,16 @@
+unit UDell;
+
+interface
+
+uses
+  UInterface;
+
+type
+  TDell = class (TInterfacedObject, IFactoryMarca)
+    function ConsultarNotebook: INotebook;
+    function ConsultarDesktop : IDesktop;
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,28 @@
+unit UIMac;
+
+interface
+
+uses
+  UInterface;
+
+type
+  TIMac = class(TInterfacedObject, IDesktop)
+    function ConsultarNotebook: INotebook;
+    function ConsultarDesktop : IDesktop;
+  end;
+
+implementation
+
+{ TIMac }
+
+function TIMac.ConsultarDesktop: IDesktop;
+begin
+  result := 'Intel COre i7'
+end;
+
+function TIMac.ConsultarNotebook: INotebook;
+begin
+  result := '500 GB'
+end;
+
+end.

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/19 18:39:45.000.471,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 19:33:07.000.852,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/20 20:49:55.000.067,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:43:59.000.564,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:46:56.000.067,C:\Users\mysql\Desktop\delphi_atvs\Interfaces\calculadora\UfrmPrincipal.dfm=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/01/23 19:46:56.000.067,C:\Users\mysql\Desktop\delphi_atvs\Interfaces\calculadora\UfrmPrincipal.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:47:15.000.008,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:53:16.000.285,C:\Users\mysql\Desktop\delphi_atvs\Interfaces\calculadora\model\services\UCalculatorService.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:53:41.000.221,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:57:05.000.799,C:\Users\mysql\Desktop\delphi_atvs\Interfaces\calculadora\model\services\UCalculatorServiceDefault.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 19:57:36.000.662,C:\Users\mysql\Desktop\delphi_atvs\Interfaces\calculadora\model\CalculadoraComInterface.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/01/23 20:02:00.000.924,=C:\Users\mysql\Desktop\delphi_atvs\Interfaces\calculadora\model\Unit1.pas</Transaction>
+    <Transaction>2023/01/23 20:06:12.000.859,C:\Users\mysql\Desktop\delphi_atvs\Interfaces\calculadora\model\services\UCalculatorService2.pas=C:\Users\mysql\Desktop\delphi_atvs\Interfaces\calculadora\model\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

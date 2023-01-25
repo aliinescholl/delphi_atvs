@@ -1,0 +1,16 @@
+unit UIMac;
+
+interface
+
+uses
+  UInterface;
+
+type
+  TIMac = class(TInterfacedObject, IDesktop)
+    function ConsultarNotebook: INotebook;
+    function ConsultarDesktop : IDesktop;
+  end;
+
+implementation
+
+end.
