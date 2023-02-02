@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/19 18:39:45.000.471,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 19:33:07.000.852,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/20 20:49:55.000.067,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 18:55:05.000.197,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 21:48:19.000.503,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 21:48:53.000.175,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2023/01/24 21:48:53.000.175,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\UfrmPrincipal.pas</Transaction>
+    <Transaction>2023/01/24 21:53:53.000.710,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\FactoryMethod.dproj</Transaction>
+    <Transaction>2023/01/25 18:25:40.043,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 18:30:00.469,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\pattern\factoryMethod\UTipoPrazo.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 18:30:12.644,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 18:30:24.643,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\pattern\factoryMethod\UPrazoMensal.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 18:30:28.609,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 18:30:43.705,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\pattern\factoryMethod\UPrazoAnual.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 18:30:48.540,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 18:30:58.977,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\pattern\factoryMethod\UFabricaPrazos.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 02 - FactoryMethod\Unit1.pas</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="pattern"/>
+    <File Path="pattern\factoryMethod"/>
+    <File Path="pattern\factoryMethod\UFabricaPrazos.pas"/>
+    <File Path="pattern\factoryMethod\UPrazoAnual.pas"/>
+    <File Path="pattern\factoryMethod\UPrazoMensal.pas"/>
+    <File Path="pattern\factoryMethod\UTipoPrazo.pas"/>
+    <File Path="UfrmPrincipal.pas"/>
+    <File Path="UfrmPrincipal.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

@@ -1,0 +1,186 @@
+=::=::\
+
+ACADSERVER=@ampere
+
+ADSKFLEX_LICENSE_FILE=@201.54.199.6
+
+ADSK_CLM_WPAD_PROXY_CHECK=FALSE
+
+AGSDESKTOPJAVA=C:\Program Files (x86)\ArcGIS\Desktop10.1\
+
+ALLUSERSPROFILE=C:\ProgramData
+
+APPDATA=C:\Users\mysql\AppData\Roaming
+
+BCB=c:\program files (x86)\embarcadero\studio\21.0
+
+BDS=c:\program files (x86)\embarcadero\studio\21.0
+
+BDSAppDataBaseDir=BDS
+
+BDSBIN=c:\program files (x86)\embarcadero\studio\21.0\bin
+
+BDSCatalogRepository=C:\Users\mysql\Documents\Embarcadero\Studio\21.0\CatalogRepository
+
+BDSCatalogRepositoryAllUsers=C:\Users\Public\Documents\Embarcadero\Studio\21.0\CatalogRepository
+
+BDSCOMMONDIR=C:\Users\Public\Documents\Embarcadero\Studio\21.0
+
+BDSINCLUDE=c:\program files (x86)\embarcadero\studio\21.0\include
+
+BDSLIB=c:\program files (x86)\embarcadero\studio\21.0\lib
+
+BDSPLATFORMSDKSDIR=C:\Users\mysql\Documents\Embarcadero\Studio\SDKs
+
+BDSPROFILESDIR=C:\Users\mysql\Documents\Embarcadero\Studio\Profiles
+
+BDSPROJECTSDIR=C:\Users\mysql\Documents\Embarcadero\Studio\Projects
+
+BDSUSERDIR=C:\Users\mysql\Documents\Embarcadero\Studio\21.0
+
+CDSROOT=C:\OrCAD\OrCAD_16.3_Demo
+
+CommonProgramFiles=C:\Program Files (x86)\Common Files
+
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+
+CommonProgramW6432=C:\Program Files\Common Files
+
+COMPUTERNAME=MC-4781
+
+ComSpec=C:\windows\system32\cmd.exe
+
+DELPHI=c:\program files (x86)\embarcadero\studio\21.0
+
+DriverData=C:\Windows\System32\Drivers\DriverData
+
+FLEXID_LIBRARY_PATH=C:\Program Files (x86)\GEO-SLOPE\GeoStudio Common\
+
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+
+FPS_BROWSER_USER_PROFILE_STRING=Default
+
+FURB-TemaWallpaper=2023-Somav2
+
+HOMEDRIVE=C:
+
+HOMEPATH=\Users\mysql
+
+HwEngineeringData=C:\ProgramData\Honeywell\EngineeringData
+
+HwInstallPath=C:\Program Files (x86)\Honeywell
+
+HwProductConfig=C:\ProgramData\Honeywell\ProductConfig
+
+HwProgramData=C:\ProgramData\Honeywell
+
+HwSecurityPath=C:\ProgramData\Honeywell\ProductConfig\Security
+
+IBREDISTDIR=C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020
+
+IPASSI_LICENSE_FILE=@fourier
+
+KMP_DUPLICATE_LIB_OK=TRUE
+
+LOCALAPPDATA=C:\Users\mysql\AppData\Local
+
+LOGONSERVER=\\COALA
+
+MKL_SERIAL=YES
+
+MLM_LICENSE_FILE=27000@201.54.199.7
+
+MonitorPrincipalProporcao=5_por_4
+
+MonitorPrincipalResolucao=1280x1024
+
+NUMBER_OF_PROCESSORS=4
+
+OneDrive=C:\Users\mysql\OneDrive
+
+OS=Windows_NT
+
+Path=C:\Users\mysql\Documents\Skia4Delphi\Library\RAD Studio 10.4 Sydney\Win32\Release\Bpl;C:\Users\mysql\Documents\Skia4Delphi\Binary\Shared\Win32;C:\Users\Public\Documents\Embarcadero\InterBase\redist\InterBase2020\IDE_spoof;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\21.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\21.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Honeywell\Common;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\MATLAB\R2017b\bin;C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin;C:\Program Files (x86)\Microchip\MPLAB IDE\VDI;C:\OrCAD\OrCAD_16.3_Demo\tools\PSpice;C:\OrCAD\OrCAD_16.3_Demo\tools\PSpice\Library;C:\OrCAD\OrCAD_16.3_Demo\tools\Capture;C:\OrCAD\OrCAD_16.3_Demo\tools\bin;C:\OrCAD\OrCAD_16.3_Demo\OpenAccess\bin\win32\opt;C:\OrCAD\OrCAD_16.3_Demo\tools\fet\bin;C:\OrCAD\OrCAD_16.3_Demo\tools\pcb\bin;C:\Program Files (x86)\Novell\ZENworks\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Users\mysql\AppData\Local\Microsoft\WindowsApps;
+
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+
+PROCESSOR_ARCHITECTURE=x86
+
+PROCESSOR_ARCHITEW6432=AMD64
+
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+
+PROCESSOR_LEVEL=6
+
+PROCESSOR_REVISION=3c03
+
+ProductVersion=21.0
+
+ProgramData=C:\ProgramData
+
+ProgramFiles=C:\Program Files (x86)
+
+ProgramFiles(x86)=C:\Program Files (x86)
+
+ProgramW6432=C:\Program Files
+
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+
+PT7HOME=C:\Program Files\Cisco Packet Tracer 7.1.1
+
+PUBLIC=C:\Users\Public
+
+QT_DEVICE_PIXEL_RATIO=auto
+
+SCPLMD_LICENSE_FILE=C:\Program Files (x86)\Common Files\Honeywell\OLGAS\license.dat
+
+SESSIONNAME=Console
+
+SKIADIR=C:\Users\mysql\Documents\Skia4Delphi
+
+SystemDrive=C:
+
+SystemRoot=C:\windows
+
+TEMP=C:\Users\mysql\AppData\Local\Temp
+
+TMP=C:\Users\mysql\AppData\Local\Temp
+
+USERDNSDOMAIN=FURB.BR
+
+USERDOMAIN=FURB
+
+USERDOMAIN_ROAMINGPROFILE=FURB
+
+USERNAME=mysql
+
+USERPROFILE=C:\Users\mysql
+
+windir=C:\windows
+
+WinInstallDate=17/08/2022 12:49:40
+
+WSUS-DomainRole=Workstation
+
+WSUS-Manual=?
+
+WSUS-OS=Windows 10
+
+WSUS-OU=LCC
+
+WSUS-Role=SemRole
+
+WSUS-Site=C1-ACAD
+
+WSUS-Win10Suporte=Valido
+
+WSUS-Win10Update=Esconder
+
+WSUS-Win10Ver=21H2
+
+WSUS-WindowsSKU=SAC
+
+WSUS-WinSuporte=Suporte?
+
+ZENWORKS_HOME=C:\Program Files (x86)\Novell\ZENworks
+

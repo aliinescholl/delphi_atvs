@@ -1,0 +1,16 @@
+unit UConcreteDecorator_DataHora;
+
+interface
+
+uses
+  UDecorator;
+
+type
+  TDataHoraDecorator = class(TDecorator)
+    protected
+      function ObterDadosExcecao: String; override;
+  end;
+
+implementation
+
+end.

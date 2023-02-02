@@ -1,0 +1,27 @@
+object Frame1: TFrame1
+  Left = 0
+  Top = 0
+  Width = 297
+  Height = 187
+  TabOrder = 0
+  object Label1: TLabel
+    Left = 0
+    Top = 0
+    Width = 297
+    Height = 13
+    Margins.Bottom = 10
+    Align = alTop
+    Alignment = taCenter
+    Caption = 'Log de Opera'#231#245'es'
+    ExplicitWidth = 87
+  end
+  object Memo1: TMemo
+    Left = 3
+    Top = 26
+    Width = 291
+    Height = 151
+    Alignment = taCenter
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+end

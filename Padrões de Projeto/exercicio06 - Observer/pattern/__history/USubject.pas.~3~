@@ -1,0 +1,18 @@
+unit USubject;
+
+interface
+
+uses
+  UObserver;
+
+type
+  ISubject = interface
+    ['{58EA7F32-B3F2-4325-A619-0C6298470D7C}']
+    procedure AdicionarObserver(aObserver: IObserver);
+    procedure RemoverObserver(aObserver: IObserver);
+    procedure Notificar;
+  end;
+
+implementation
+
+end.

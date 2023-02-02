@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/19 18:39:45.000.471,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 19:33:07.000.852,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/20 20:49:55.000.067,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 18:55:05.000.197,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 20:46:33.000.954,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 20:47:01.000.331,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2023/01/25 20:47:01.000.331,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\UfrmPrincipal.pas</Transaction>
+    <Transaction>2023/01/25 20:55:44.000.109,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\Adapter.dproj</Transaction>
+    <Transaction>2023/01/25 20:56:56.000.091,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\UWebServiceCorreios.pas</Transaction>
+    <Transaction>2023/01/25 20:59:18.000.387,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 21:01:31.000.504,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\pattern\Adapter\UInterfaceViaCEP.pas</Transaction>
+    <Transaction>2023/01/25 21:04:36.000.904,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 21:09:18.000.410,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\pattern\Adapter\UTarget.pas</Transaction>
+    <Transaction>2023/01/25 21:09:28.000.085,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\UWebServiceCorreios.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\pattern\Adapter\UWebServiceCorreios.pas</Transaction>
+    <Transaction>2023/01/25 21:18:24.000.998,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 21:18:37.000.279,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\pattern\Adapter\UWebServiceViaCEP.pas</Transaction>
+    <Transaction>2023/01/25 21:46:36.000.864,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\Unit1.pas</Transaction>
+    <Transaction>2023/01/25 21:46:54.000.059,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\pattern\Adapter\UAdaptee.pas</Transaction>
+    <Transaction>2023/01/27 18:38:37.964,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 18:38:47.713,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\pattern\Adapter\UAdapter.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 03 - Adapter\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

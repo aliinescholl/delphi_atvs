@@ -1,0 +1,22 @@
+unit UPrazoAnual;
+
+interface
+
+uses
+  UTipoPrazo;
+
+type
+  TPrazoAnual = class(TInterfacedObject, ITipoPrazo)
+    private
+    FValorTotal: Real;
+    public
+    function ConsultarDescricao: String;
+    function ConsultarJuros: String;
+    function ConsultarProjecao(const aValor: Real;
+      const aQtdParcelas: Integer): String;
+    function ConsultarTotal: String;
+  end;
+
+implementation
+
+end.

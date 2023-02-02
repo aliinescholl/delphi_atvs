@@ -1,0 +1,41 @@
+unit UConcreteObserver_Saldo;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, UObserver,
+  UNotificacao;
+
+type
+  TFrame2 = class(TFrame, IObserver)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+  private
+    FCreditos: Real;
+    FDebitos: Real;
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure Atualizar(aNotificado: TNotificacao);
+  end;
+
+implementation
+
+{$R *.dfm}
+
+{ TFrame2 }
+
+procedure TFrame2.Atualizar(aNotificado: TNotificacao);
+var
+  xSaldo: Real;
+begin
+
+end;
+
+end.

@@ -1,0 +1,31 @@
+unit UConcreteDecorator_Usuario;
+
+interface
+
+uses
+  UDecorator;
+
+type
+  TUsuarioDecorator = class(TDecorator)
+    private
+      function ObterNomeUsuario: String;
+    protected
+      function ObterDadosExcecao: String; Override;
+  end;
+
+implementation
+
+{ TUsuarioDecorator }
+
+function TUsuarioDecorator.ObterDadosExcecao: String;
+begin
+  result := inherited ObterDadosExcecao;
+  resut:= result + 'Usuário' + self.ObterNomeUsuario;
+  end;
+
+function TUsuarioDecorator.ObterNomeUsuario: String;
+begin
+
+end;
+
+end.

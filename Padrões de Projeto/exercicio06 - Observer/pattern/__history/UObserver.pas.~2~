@@ -1,0 +1,10 @@
+unit UObserver;
+
+interface
+
+uses
+  INotificacao;
+
+implementation
+
+end.

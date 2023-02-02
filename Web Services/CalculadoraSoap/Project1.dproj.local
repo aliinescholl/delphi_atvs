@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/19 18:39:45.000.471,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 19:33:07.000.852,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/20 20:49:55.000.067,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 18:55:05.000.197,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/01 20:11:48.972,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2023/02/01 20:11:49.197,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2023/02/01 20:12:02.004,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\ICalculadoraImpl.pas</Transaction>
+    <Transaction>2023/02/01 20:12:02.097,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\ICalculadoraIntf.pas</Transaction>
+    <Transaction>2023/02/01 20:17:05.625,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CalculadoraSoap\ICalculadoraImpl.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\ICalculadoraImpl.pas</Transaction>
+    <Transaction>2023/02/01 20:18:51.160,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CalculadoraSoap\ICalculadoraIntf.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\ICalculadoraIntf.pas</Transaction>
+    <Transaction>2023/02/01 20:18:52.201,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CalculadoraSoap\FormUnit1.dfm=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\FormUnit1.dfm</Transaction>
+    <Transaction>2023/02/01 20:18:52.201,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CalculadoraSoap\FormUnit1.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2023/02/01 20:18:53.209,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CalculadoraSoap\WebModuleUnit1.dfm=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2023/02/01 20:18:53.209,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CalculadoraSoap\WebModuleUnit1.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2023/02/01 20:18:54.276,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CalculadoraSoap\Project1.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

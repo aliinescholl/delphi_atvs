@@ -1,0 +1,24 @@
+unit UWebServiceViaCEP;
+
+interface
+
+uses
+  Xml.XMLIntf, Xml.XMLDoc, UInterfaceViaCEP;
+
+type
+  TWebServiceViaCEP = class(TInterfacedObject, IWebServiceViaCEP)
+    private
+      FXMLDocument : IXMLDocument;
+    public
+      constructor Create;
+      destructor Destroy; override;
+
+    procedure ConsultarEnderecoWebService(const aCep:String);
+    function ObterLogradouro: String;
+    function ObterBairro: String;
+    function ObterCidade: String;
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/19 18:39:45.000.471,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 19:33:07.000.852,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/20 20:49:55.000.067,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 18:55:05.000.197,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:44:53.000.308,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:46:35.000.083,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\UDecorator.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:46:35.000.083,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\UDecorator.dfm=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/01/27 19:46:58.000.776,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\UfrmPrincipal.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\UDecorator.pas</Transaction>
+    <Transaction>2023/01/27 19:46:58.000.776,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\UfrmPrincipal.dfm=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\UDecorator.dfm</Transaction>
+    <Transaction>2023/01/27 19:47:05.000.196,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Decorator.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/01/27 19:47:37.000.496,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:48:33.000.702,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\pattern\Decorator\UInterfaceComponent.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:49:13.000.839,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:49:27.000.077,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\pattern\Decorator\UConcreteComponent.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:49:59.000.014,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:50:25.000.443,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\pattern\Decorator\UConcreteDecorator_DataHora.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:50:29.000.482,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:50:44.000.943,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\pattern\Decorator\UConcreteDecorator_Usuario.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:50:49.000.159,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:51:05.000.249,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\pattern\Decorator\UConcreteDecorator_Windows.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 19:51:24.000.251,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 20:00:04.000.820,=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+    <Transaction>2023/01/27 20:00:26.000.518,C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\pattern\Decorator\UDecorator.pas=C:\Users\mysql\Desktop\delphi_atvs\Padrões de Projeto\exercicio 04 - Decorator\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

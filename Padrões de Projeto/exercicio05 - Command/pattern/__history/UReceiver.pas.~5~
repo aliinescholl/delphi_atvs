@@ -1,0 +1,54 @@
+unit UReceiver;
+
+interface
+
+type
+  TReceive = class
+    public
+    procedure ExtrairProcessos;
+    procedure ExtrairProgramas;
+    procedure ExtrairVariaveisAmbiente;
+  end;
+
+implementation
+
+uses
+  DIalogs, Messages, Windows, TlHelp32,
+  psAPI, SysUtils, Registry, Classes;
+
+{ TReceive }
+
+procedure TReceive.ExtrairProcessos;
+var
+  xHandle: THandle;
+  xProcessEntry: TProcessEntry32;
+  xListaProcessos: TStringList;
+begin
+  //extrai a lista de processos em execucao
+
+  xHandle := CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+  xListaProcessos := TStringList.Create;
+  try
+    xProcessEntry.dwSize := SizeOf(TProcessEntry32);
+    Process32Next(xHandle, xProcessEntry);
+
+    repeat
+      xListaProcessos.Add(xProcessEntry.szExeFile);
+    until not Process32Next(xHandle, xProcessEntry);
+  finally
+     CloseHandle(xHandle);
+     FreeAndNil(xListaProcessos);
+  end;
+end;
+
+procedure TReceive.ExtrairProgramas;
+begin
+
+end;
+
+procedure TReceive.ExtrairVariaveisAmbiente;
+begin
+
+end;
+
+end.
