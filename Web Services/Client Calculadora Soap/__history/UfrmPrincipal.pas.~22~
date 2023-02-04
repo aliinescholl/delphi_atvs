@@ -1,0 +1,67 @@
+unit UfrmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TformPrincipal = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    valor2: TEdit;
+    valor1: TEdit;
+    btnCalcular: TButton;
+    Operação: TLabel;
+    cmbOperacoes: TComboBox;
+    Label3: TLabel;
+    procedure btnCalcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formPrincipal: TformPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses
+  IICalculadora1;
+
+procedure TformPrincipal.btnCalcularClick(Sender: TObject);
+var
+  xResultado,
+  xValor1,
+  xValor2: Double;
+
+const Somar = 0;
+const Subtrair = 1;
+const Dividr = 2;
+const Multiplicar = 3;
+begin
+  if not TrystrToFloat(valor1.Text, xValor1) then
+    raise Exception.Create('Valor 1 inválido');
+
+  if not TryStrToFloat(valor2.Text, xValor2) then
+    raise Exception.Create('Valor 2 inválido');
+
+  case cmbOperacoes.ItemIndex of
+  Somar:
+    xResultado := GetIICalculadora.Somar(xValor1, xValor2);
+  1:
+    xResultado := GetIICalculadora.Subtrair(xValor1, xValor2);
+  2:
+    xResultado := GetIICalculadora.Dividir(xValor1, xValor2);
+  3:
+    xResultado := GetIICalculadora.Multiplicar(xValor1, xValor2)
+  end;
+  label3.Caption := xResultado.ToString;
+//  xResultado := GetIICalculadora;
+end;
+
+end.

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/19 18:39:45.000.471,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 19:33:07.000.852,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/20 20:49:55.000.067,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 18:55:05.000.197,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/03 19:21:33.419,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/03 19:24:39.699,C:\Users\mysql\Desktop\delphi_atvs\Web Services\UfrmPrincipal.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/03 19:24:39.699,C:\Users\mysql\Desktop\delphi_atvs\Web Services\UfrmPrincipal.dfm=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/02/03 19:28:52.366,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\IIHelloWorld1.pas</Transaction>
+    <Transaction>2023/02/03 19:29:08.380,C:\Users\mysql\Desktop\delphi_atvs\Web Services\Client hello world soap\IIHelloWorld1.pas=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\IIHelloWorld1.pas</Transaction>
+    <Transaction>2023/02/03 19:29:16.476,C:\Users\mysql\Desktop\delphi_atvs\Web Services\Client hello world soap\UfrmPrincipal.dfm=C:\Users\mysql\Desktop\delphi_atvs\Web Services\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2023/02/03 19:29:16.476,C:\Users\mysql\Desktop\delphi_atvs\Web Services\Client hello world soap\UfrmPrincipal.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\UfrmPrincipal.pas</Transaction>
+    <Transaction>2023/02/03 19:42:15.086,C:\Users\mysql\Desktop\delphi_atvs\Web Services\Client hello world soap\Project1.dproj=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
