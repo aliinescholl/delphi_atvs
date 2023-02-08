@@ -1,0 +1,50 @@
+unit UController.Cargo;
+
+interface
+
+uses
+  Horse,
+  GBSwagger.Path.Attributes,
+  UCargo;
+
+type
+  [SwagPath('cargo', 'Cargos')]
+  TPessoaController = class
+    private
+    public
+    [SwagGET('Listar Cargos', True)]
+    [SwagParamQuery('id','id do cargo')]
+    [SwagResponse(200, TCargo, 'Informações do cargo', True)]
+    class procedure GetCargos(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+    [SwagGET('id', 'Procurar um cargo')]
+    [SwagParamPath('id', 'id do cargo')]
+    [SwagResponse(200, TCargo, 'Informações do cargo')]
+    [SwagResponse(404)]
+    class procedure FindCargo(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+    [SwagPOST('Adicionar novo cargo')]
+    [SwagParamBody('Informações do cargo', TCargo)]
+    [SwagResponse(201, TCargo)]
+    [SwagResponse(400)]
+    class procedure InsertCargo(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+    [SwagPUT('{id}', 'Atualizar um cargo')]
+    [SwagParampath('id', 'id do cargo')]
+    [SwagParamBody('Informações do cargo', TCargo)]
+    [SwagResponse(204)]
+    [SwagResponse(400)]
+    [SwagResponse(404)]
+    class procedure UpdateCargo(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+    [SwagDELETE('{id}', 'Deletar um cargo')]
+    [SwagParampath('id', 'id do cargo')]
+    [SwagResponse(204)]
+    [SwagResponse(400)]
+    [SwagResponse(404)]
+    class procedure DeleteCargo(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+  end;
+implementation
+
+end.

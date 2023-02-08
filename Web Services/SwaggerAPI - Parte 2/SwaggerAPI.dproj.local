@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/19 18:39:45.000.471,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/18 19:33:07.000.852,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/20 20:49:55.000.067,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/01/24 18:55:05.000.197,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/07 19:38:32.000.773,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI\SwaggerAPI.dproj</Transaction>
+    <Transaction>2023/02/07 19:39:13.000.990,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI\Unit1.pas</Transaction>
+    <Transaction>2023/02/07 19:43:52.000.410,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI\Unit2.pas</Transaction>
+    <Transaction>2023/02/07 19:55:00.000.512,C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI\Unit2.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI\model\controllers\UController.Pessoa.pas</Transaction>
+    <Transaction>2023/02/07 19:55:36.000.195,C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI\model\Entities\UPessoa.pas</Transaction>
+    <Transaction>2023/02/07 21:28:13.402,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI - Parte 2\Unit1.pas</Transaction>
+    <Transaction>2023/02/07 21:28:42.449,C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI - Parte 2\model\Entities\UCargo.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI - Parte 2\Unit1.pas</Transaction>
+    <Transaction>2023/02/07 21:30:31.770,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI - Parte 2\Unit1.pas</Transaction>
+    <Transaction>2023/02/07 21:30:45.183,C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI - Parte 2\model\controllers\UController.Cargo.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\SwaggerAPI - Parte 2\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,29 @@
+unit UController.Cargo;
+
+interface
+
+uses
+  Horse,
+  GBSwagger.Path.Attributes,
+  UCargo;
+
+type
+  [SwagPath('cargo', 'Cargos')]
+  TPessoaController = class
+    private
+    public
+    [SwagGET('Listar Cargos', True)]
+    [SwagParamQuery('id','id do cargo')]
+    [SwagResponse(200, TCargo, 'Informações do cargo', True)]
+    class procedure GetCargos(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+    [SwagGET('id', 'Procurar um cargo')]
+    [SwagParamPath('id', 'id do cargo')]
+    [SwagResponse(200, TCargo, 'Informações do cargo')]
+    [SwagResponse(404)]
+    class procedure FindCargo(Req: THorseRequest; Res: THorseResponse; Next: TProc);
+
+  end;
+implementation
+
+end.
