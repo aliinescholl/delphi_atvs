@@ -1,0 +1,27 @@
+program JsonWebToken;
+
+{$APPTYPE CONSOLE}
+
+uses
+  Horse,
+  System.SysUtils,
+  JOSE.Core.JWT,
+  JOSE.Core.Builder;
+
+begin
+
+  THorse.Get('/login',
+    procedure(Req: THorseRequest; Res: THorseResponse; Next: TProc)
+    var
+     LToken: TJWT;
+     LCompactToken: String;
+    begin
+      Res.Send('pong');
+    end);
+
+  THorse.Listen(9000,
+    procedure(Horse: THorse)
+    begin
+      Writeln('Server is runing on port ' + IntToStr(Horse.Port));
+    end);
+end.

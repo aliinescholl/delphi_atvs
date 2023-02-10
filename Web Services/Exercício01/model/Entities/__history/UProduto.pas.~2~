@@ -1,0 +1,21 @@
+unit UProduto;
+
+interface
+
+type
+  TProduto = class
+    public
+    FId: integer;
+    FDescricao: String;
+    FUnidadeMedida: String;
+    FPrecoVenda: Currency;
+    private
+    property Id: integer           read FId            write FId;
+    property Descricao: String     read FDescricao     write FDescricao;
+    property UnidadeMedida: String read FUnidadeMedida write FUnidadeMedida;
+    property PrecoVenda:Currency   read FPrecoVenda    write FPrecoVenda;
+  end;
+
+implementation
+
+end.

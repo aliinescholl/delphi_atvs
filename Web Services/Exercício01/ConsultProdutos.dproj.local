@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/08 19:23:51.000.731,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\ConsultProdutos.dproj</Transaction>
+    <Transaction>2023/02/08 19:24:21.000.583,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\Unit1.pas</Transaction>
+    <Transaction>2023/02/08 19:27:08.000.557,C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\model\Entities\UProduto.pas</Transaction>
+    <Transaction>2023/02/08 19:30:51.000.260,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\Unit1.pas</Transaction>
+    <Transaction>2023/02/08 19:36:51.000.457,C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\controllers\Controller.UProduto.pas</Transaction>
+    <Transaction>2023/02/08 19:56:17.000.275,C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\controllers\Controller.UProduto.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\model\controllers\Controller.UProduto.pas</Transaction>
+    <Transaction>2023/02/08 19:56:59.000.600,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\Unit1.pas</Transaction>
+    <Transaction>2023/02/08 19:57:11.000.431,C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\Exercício01\model\services\UDadosGerais.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,27 @@
+unit UDadosGerais;
+
+interface
+
+uses
+  System.JSON;
+
+type
+  TDadosGerais = class
+    private
+     FNOmeArquivo: String;
+     FJSON: TJSONArray;
+
+     procedure SalvarDados;
+     procedure CarregarDados;
+    public
+     constructor Create(const aNomeArquivo: String);
+
+     function AdicionarRegistro(aJSON: TJSONObject):Boolean;
+     function RemoverRegistro(const aIdentificador: Integer): Boolean;
+
+     property JSON : TJSONArray read FJSON;
+  end;
+
+implementation
+
+end.
