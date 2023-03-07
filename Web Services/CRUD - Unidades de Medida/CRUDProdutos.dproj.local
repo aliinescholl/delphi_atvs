@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/13 19:38:08.000.922,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\CRUDProdutos.dproj</Transaction>
+    <Transaction>2023/02/13 19:45:17.000.374,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Unit1.pas</Transaction>
+    <Transaction>2023/02/13 19:45:54.000.415,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Model\Utils\UUtil.Banco.pas</Transaction>
+    <Transaction>2023/02/13 20:51:11.000.350,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Unit1.pas</Transaction>
+    <Transaction>2023/02/13 20:53:24.000.412,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Model\DAO\UDAO.intf.pas</Transaction>
+    <Transaction>2023/02/13 20:56:33.000.450,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Unit1.pas</Transaction>
+    <Transaction>2023/02/13 20:56:48.000.749,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Model\DAO\UDAO.Produtos.pas</Transaction>
+    <Transaction>2023/02/13 21:18:24.000.088,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Unit1.pas</Transaction>
+    <Transaction>2023/02/13 21:27:52.000.055,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Unit1.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Produtos\Model\Controllers\UController.Produtos.pas</Transaction>
+    <Transaction>2023/02/14 19:15:36.484,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Unidades de Medida\Unit1.pas</Transaction>
+    <Transaction>2023/02/14 19:15:59.821,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Unidades de Medida\Model\DAO\UDAO.UnidadeMedida.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Unidades de Medida\Unit1.pas</Transaction>
+    <Transaction>2023/02/14 19:22:40.304,=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Unidades de Medida\Unit1.pas</Transaction>
+    <Transaction>2023/02/14 19:22:56.714,C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Unidades de Medida\Model\Controllers\UController.UnidadeMedida.pas=C:\Users\mysql\Desktop\delphi_atvs\Web Services\CRUD - Unidades de Medida\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

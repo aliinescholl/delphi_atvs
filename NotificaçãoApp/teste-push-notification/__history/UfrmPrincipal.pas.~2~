@@ -1,0 +1,49 @@
+unit UfrmPrincipal;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, UClasses.MyNotification, System.Notification;
+
+type
+  TForm1 = class(TForm)
+  private
+    procedure SetNotification(const aTitle, aMessage: string);
+
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.fmx}
+
+{ TForm1 }
+
+procedure SetNotification(const aTitle, aMessage: string);
+begin
+  var vNotifiCenter:= TNotificationCenter.Create(nil);
+  try
+    if vNotifiCenter.Supported then
+    begin
+      var vNotification:= vNotifiCenter.CreateNotification;
+      try
+        vNotification.AlertBody:= aMessage;
+        vNotification.Title:= aTitle;
+        vNotification.EnableSound:= true;
+        vNotifiCenter.PresentNotification(vNotification);
+      finally
+        vNotification.Free;
+      end;
+    end;
+  finally
+    vNotifiCenter.Free;
+  end;
+end;
+
+end.

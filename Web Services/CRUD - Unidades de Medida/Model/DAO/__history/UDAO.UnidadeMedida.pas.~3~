@@ -1,0 +1,43 @@
+unit UDAO.UnidadeMedida;
+
+interface
+
+uses
+  UDAO.intf,
+  System.JSON,
+  Dataset.Serialize;
+
+type
+  UUnidadeMedida = class(TInterfacedObject, IDAO)
+    function ObterRegistro: TJSONARRAY;
+    function ProcurarPorId(const aIdentificador: Integer): TJSONObject;
+    function AdicionarRegistro(aRegistro: TJSONObject): Boolean;
+    function DeletarRegistro(const aIdentificador: Integer): Boolean;
+  end;
+
+implementation
+
+{ UUnidadeMedida }
+
+function UUnidadeMedida.AdicionarRegistro(aRegistro: TJSONObject): Boolean;
+begin
+
+end;
+
+function UUnidadeMedida.DeletarRegistro(const aIdentificador: Integer): Boolean;
+begin
+
+end;
+
+function UUnidadeMedida.ObterRegistro: TJSONARRAY;
+begin
+
+end;
+
+function UUnidadeMedida.ProcurarPorId(
+  const aIdentificador: Integer): TJSONObject;
+begin
+
+end;
+
+end.

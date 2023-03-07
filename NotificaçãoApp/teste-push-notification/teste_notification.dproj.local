@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/03/06 19:11:43.000.808,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/06 19:12:33.000.226,=C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/03/06 19:13:58.000.913,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\mysql\Desktop\teste-push-notification\UClasses.MyNotification.pas</Transaction>
+    <Transaction>2023/03/06 19:14:38.000.339,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\mysql\Desktop\teste-push-notification\UfrmPrincipal.pas</Transaction>
+    <Transaction>2023/03/06 19:14:38.000.339,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\mysql\Desktop\teste-push-notification\UfrmPrincipal.fmx</Transaction>
+    <Transaction>2023/03/06 19:15:05.000.935,C:\Users\mysql\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\mysql\Desktop\teste-push-notification\teste_notification.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android64="RQ8M40EMYHL" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

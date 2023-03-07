@@ -1,0 +1,51 @@
+unit UDAO.Produtos;
+
+interface
+
+uses
+  UDAO.intf,
+  System.JSON,
+  Dataset.Serialize;
+
+type
+  TDAOProdutos = class(TInterfacedObject, IDAO)
+    function ObterRegistro: TJSONARRAY;
+    function ProcurarPorId(const aIdentificador: Integer): TJSONObject;
+    function AdicionarRegistro(aRegistro: TJSONObject): Boolean;
+    function DeletarRegistro(const aIdentificador: Integer): Boolean;
+  end;
+
+implementation
+
+uses
+ FireDac.Comp.Client,
+ System.SysUtils,
+ UUtil.Banco;
+
+{ TDAOProdutos }
+
+function TDAOProdutos.AdicionarRegistro(aRegistro: TJSONObject): Boolean;
+begin
+  try
+    result := TUtilBanco.AdicionarRegistro('PRODUTOS', ARegistro.ToJSON);
+  except on E: Exception do
+    raise Exception.Create('Erroao adicionar registro: ' + e.Message);
+  end;
+end;
+
+function TDAOProdutos.DeletarRegistro(const aIdentificador: Integer): Boolean;
+begin
+
+end;
+
+function TDAOProdutos.ObterRegistro: TJSONARRAY;
+begin
+
+end;
+
+function TDAOProdutos.ProcurarPorId(const aIdentificador: Integer): TJSONObject;
+begin
+
+end;
+
+end.
